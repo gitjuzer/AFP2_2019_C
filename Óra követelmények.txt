@@ -1,0 +1,4 @@
+Aktivitás Trello-n
+Git használata
+Elvek, tervezési minták használata
+Saját munka prezentálása
