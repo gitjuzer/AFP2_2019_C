@@ -3,7 +3,7 @@
 Az alkalmazás célja játékos módú iskolai tanulmányokat kiegészítő tanulási lehetőség biztosítása általános iskolásoknak.
 Web-en és Android-on futó alkalmazás. A tananyagok tantárgyak, azon belül pedig témakörök szerint vannak osztályozva. A témakörökben a diákok tananyagot és ahhoz tartozó teszteket (kiegészítős, feleletválasztós, összekötős, közelítős) találnak. Ezek megoldására idő és pontosság alapján pontszámot kapnak a tanulók. Az eredmények megjelennek az adott feladat mellett, illetve az összesített pontszám megjelenik egy külön menüpontban. (összesített pontszámok).
 
-by: Gajdár Krisztián
+by: [Gajdár Krisztián](https://www.github.com/gajdikuka)
 
 ## 2. Jelenlegi Helyzet
 
