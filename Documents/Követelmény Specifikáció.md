@@ -1,6 +1,7 @@
 ## 1. Áttekintés
 
-A SoloLearn-ön alapuló oktatást segítő alkalmazás Web (React.js) és Android (React Native) platformokon. A tananyagok tantárgyak, azon belül pedig témakörök szerint vannak osztályozva. A témakörökben a diákok tananyagot és ahhoz tartozó teszteket tartalmaznak (kiegészítős, feleletválasztós, összekötős, közelítős). Ezek megoldására idő és pontosság alapján pontszámot kapnak a tanulók. Az eredmények megjelennek az adott feladat mellett, illetve az összesített pontszám megjelenik egy külön menüpontbanban (összesített pontszámok) 
+Az alkalmazás célja játékos módú iskolai tanulmányokat kiegészítő tanulási lehetőség biztosítása általános iskolásoknak.
+A SoloLearn-ön alapuló oktatást segítő alkalmazás Web (React.js) és Android (React Native) platformokon, Java backendet használva. A tananyagok tantárgyak, azon belül pedig témakörök szerint vannak osztályozva. A témakörökben a diákok tananyagot és ahhoz tartozó teszteket tartalmaznak (kiegészítős, feleletválasztós, összekötős, közelítős). Ezek megoldására idő és pontosság alapján pontszámot kapnak a tanulók. Az eredmények megjelennek az adott feladat mellett, illetve az összesített pontszám megjelenik egy külön menüpontban. (összesített pontszámok).
 
 by: Gajdár Krisztián
 
@@ -8,14 +9,16 @@ by: Gajdár Krisztián
 
 ## 3. Vágyálom Rendszer 
 
-## 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
+## 4. Funkcionális Követelmények
 
-## 5. Jelenlegi Üzleti Folyamatok Modellje
+## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
-## 6. Igényelt Üzleti Folyamatok
+## 6. Jelenlegi Üzleti Folyamatok Modellje
 
-## 7. Követelmény Lista
+## 7. Igényelt Üzleti Folyamatok
 
-## 8. Riportok
+## 8. Követelmény Lista
 
-## 9. Fogalomszótár
+## 9. Riportok
+
+## 10. Fogalomszótár
