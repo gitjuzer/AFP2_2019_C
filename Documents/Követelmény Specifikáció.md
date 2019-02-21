@@ -6,14 +6,14 @@ by: Gajdár Krisztián
 
 ## 3. Vágyálom Rendszer
 
-## 4. Követelmény Lista
+## 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
-## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
+## 5. Jelenlegi Üzleti Folyamatok Modellje
 
-## 6. Jelenlegi Üzleti Folyamatok Modellje
+## 6. Igényelt Üzleti Folyamatok
 
-## 7. Igényelt Üzleti Folyamatok
+## 7. Riportok
 
-## 8. Riportok
+## 8. Követelmény Lista
 
 ## 9. Fogalomszótár
