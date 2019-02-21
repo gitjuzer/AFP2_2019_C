@@ -6,6 +6,16 @@ Web-en és Android-on futó alkalmazás. A tananyagok tantárgyak, azon belül p
 by: [Gajdár Krisztián](https://www.github.com/gajdikuka)
 
 ## 2. Jelenlegi Helyzet
+Az oktatásért felelős szervek hierarchikus rendszerében legalul foglalnak helyet az iskolák. Ebből adodóan nem azok alakítják ki a tanrendet akik a tanulót érdekeit tartják szem elött.
+
+Jelenleg az oktatás:
+* szigorú a diákokhoz
+* a tanárok nem tudnák párhuzamosan különbözőképp foglalkozni a diákokkal
+* lexikális tudásközpontú, stresszes, nem motiváló, nem játékos
+* elméleti alapú, nagyon kevés gyakorlattal
+* 20. századi, elavult módszereket használó
+
+Ezek miatt van lehetőség és szükség a játékos oktatásra
 
 ## 3. Vágyálom Rendszer 
 
