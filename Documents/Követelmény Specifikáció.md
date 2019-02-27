@@ -78,6 +78,22 @@ a természetes személyeknek a személyes adatok kezelése tekintetében törté
 
 ## 7. Igényelt Üzleti Folyamatok
 
+Szórakoztató tanulási folyamat:
+
+A cél, hogy a diák kellemesen érezze magát a tanulással eltöltött idő alatt, valamint a feladatok és tananyag a lehető legjobban kösse le a figyelmét. Ezáltal a tanuló szívesebben tölti tanulással az idejét és annak hatékonysága is nő.
+
+Egészséges versenyszellem megteremtése:
+
+Egy nem túl komoly vetélkedés a diákok körében ösztönző hatással van jobb eredmények elérésére.
+
+Hangsúly a csapatmunkán:
+
+A csapatmunkához való szoktatás már a tanulmányok elején fontos feladat. Törekedni kell arra, hogy a diákok hozzászokjanak több személlyel való együttes munkára, feladatok felosztására valamint a hatékony kommunikációra a csapaton belül.
+
+Elérhetőség:
+
+A tananyagot biztosítani kell, hogy az bármikor elérhető legyen a diák számára, valamint az anyag kényelmesen vehető nem túl nagy „részekre” legyen felbontva.
+
 ## 8. Követelmény Lista
 
 ## 9. Riportok
