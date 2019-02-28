@@ -20,40 +20,40 @@ Mindezek miatt a mai oktatás alapvetően nyomasztó és demotiváló hatással 
 
 ## 3. Vágyálom Rendszer 
 
-**3.1. Terjedés: kik használják a rendszert
+**3.1. Terjedés: kik használják a rendszert**
 
-A program általános iskolás és gimnazista diákok számára készül, tanulásfejlesztés, játékos tanulás témakörében. Célja elosegíteni a "játszva tanulást",
+A program általános iskolás és gimnazista diákok számára készül, tanulásfejlesztés, játékos tanulás témakörében. Célja elősegíteni a "játszva tanulást",
 így lekötvén akár a hiperaktív gyermekek figyelmét is, élvezetté tenni a felkészülést és segíteni a preferencia szerzést. Sikeres adaptáció esetén a program 
-elterjedhet akár az összes magyarországi oktatási intézményben, akár külföldi, határontúli területeken is megjelenhet, késobb lefordítható más nyelvekre.
+elterjedhet akár az összes magyarországi oktatási intézményben, akár külföldi, határontúli területeken is megjelenhet, később lefordítható más nyelvekre.
 
-**3.2. Egyénileg kiválaszthatja a feladatokat, amelyekkel segíti a hiányosságait
+**3.2. Egyénileg kiválaszthatja a feladatokat, amelyekkel segíti a hiányosságait**
 
-A program tartalmazni fogja valamennyi az adott célcsoport számára szükséges tantárgyat, a modulokat mind a diák, mind a tanár, mind a szülo kiválaszthatja.
-Az iskolában gyengébb diák eloször egyszeru feladatokat kap, felkelti az érdeklodését, különféle játékmódokon sajátítja el a tudást, késobb aztán egyre összetettebbé
+A program tartalmazni fogja valamennyi az adott célcsoport számára szükséges tantárgyat, a modulokat mind a diák, mind a tanár, mind a szülő kiválaszthatja.
+Az iskolában gyengébb diák először egyszerű feladatokat kap, felkelti az érdeklődését, különféle játékmódokon sajátítja el a tudást, később aztán egyre összetettebbé
 válnak a feladatok, egészen akár a tantárgyi maximum eléréséig. Korban fiatalabb gyerekek sugó és menürendszer segítségével érthetik meg a játékot,
 valamint szaktanáraik, akik alapfokú képzésben fognak részesülni a program használatát illetoen tájékoztatást is tudnak nyújtani.
-Idosebb gyerekek saját maguk számára szerkeszthetik a féléves/éves tantárgyi elomenetellel párhuzamosan a modulokat, így hozzásegítve oket a jó eredmények 
+Idősebb gyerekek saját maguk számára szerkeszthetik a féléves/éves tantárgyi előmenetellel párhuzamosan a modulokat, így hozzásegítve oket a jó eredmények 
 eléréséhez. A tanárok folyamatosan nyomon tudják követni az osztályaik valamennyi tanulója által elkészített, megoldott modulokat, melyekbol megállapíthatja
 és kiküszöbölheti fobb hibáik, gyengeségeik és a tanórák keretein belül megoldásokat javasolhat azok megoldására.
 
-**3.3. Honnan indult, hol tart most, mi a célja idotávok
+**3.3. Honnan indult, hol tart most, mi a célja időtávok**
 
-A program nyomon követi a diák fejlodését az adott modulok tükrében. Grafikonok, statisztikai adatok segítségével elemezheto a programban eltöltött ido hasznossága, 
+A program nyomon követi a diák fejlődését az adott modulok tükrében. Grafikonok, statisztikai adatok segítségével elemezhető a programban eltöltött ido hasznossága, 
 akár az órán szerzett érdemjeggyel is összehasonlítható, így felmérve, hogy mik a nehezebb, érzékenyebb, esetleg téves és javításra szoruló koncepciók. A tanárral együttmuködve
-rövid távon a hallgató tanulmányi eredményének enyhe javulása, majd késobb miután a használat otthon is rendszeressé vált így az unalmas házi feladatok intézményét felváltva
-a diákban rejlo potenciál maximális kihasználása.
+rövid távon a hallgató tanulmányi eredményének enyhe javulása, majd később miután a használat otthon is rendszeressé vált így az unalmas házi feladatok intézményét felváltva
+a diákban rejlő potenciál maximális kihasználása.
 
-**3.4. Folyamatosan frissül és bovül az új igényeknek megfeleloen
+**3.4. Folyamatosan frissül és bovül az új igényeknek megfeleloen**
 
-Minden félév végén a tanárok a diák programhasználati logjait, adathalmazait, valamint enaplós érdemjegyeit a fejlesztocsapat segítségére, rendelkezésére szolgáltatják.
-Így a programozók és a velük együttmuködo magasan képzett oktatástechnikai munkatársak, a programban résztvevo szaktanárok és a szaktárca képviseloi elemzik az egyes
+Minden félév végén a tanárok a diák programhasználati logjait, adathalmazait, valamint enaplós érdemjegyeit a fejlesztőcsapat segítségére, rendelkezésére szolgáltatják.
+Így a programozók és a velük együttmuködő magasan képzett oktatástechnikai munkatársak, a programban résztvevő szaktanárok és a szaktárca képviseloi elemzik az egyes
 modulokat és fejlesztéseket állítanak hadrendbe. A rendszeren folyamatosan képzett stábok dolgoznak a minél magasabb fokú eredményesség elérése céljából.
 
-**3.5. Rendszer specifikációs álmok
+**3.5. Rendszer specifikációs álmok**
 
-A program muködtetéséhez elegendo más hasonló programok mintájára egy mobiltelefon, vagy személyi számítógépes környezet, melyhez nagyjából 300 megabyte szabad 
-területnyi letöltést kell hozzáférhetové tenni. A rendszer fejlesztoi részére szükséges egy 30 db egyenként 400.000 Ft piaci értéku laptop, melyen a fejlesztést, a karbantartást és
-a mantiss rendszeru hibajavítást, valamint a git alapú verzió frissítéseket el lehet végezni. Szükséges még továbbá egy nagy kapacitású szerverterem, 3 számítógéppel, hogy a
+A program muködtetéséhez elegendő más hasonló programok mintájára egy mobiltelefon, vagy személyi számítógépes környezet, melyhez nagyjából 300 megabyte szabad 
+területnyi letöltést kell hozzáférhetové tenni. A rendszer fejlesztői részére szükséges egy 30 db egyenként 400.000 Ft piaci értékű laptop, melyen a fejlesztést, a karbantartást és
+a mantiss rendszerű hibajavítást, valamint a git alapú verzió frissítéseket el lehet végezni. Szükséges még továbbá egy nagy kapacitású szerverterem, 3 számítógéppel, hogy a
 rendszergazdák az adattárolást, valamint a dataanalitikusok programjainak muködtetését azokon el lehessen végezni.
 
 Készítette: Gergely Dávid és [Vincze Flórián](https://www.github.com/Fagyesz)
