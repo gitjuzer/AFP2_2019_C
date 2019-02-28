@@ -94,6 +94,40 @@ A tananyagot biztosítani kell, hogy az bármikor elérhető legyen a diák szá
 
 ## 8. Követelmény Lista
 
+**Mik a rendszer fontos tulajdonágai**
+
+Fontos, hogy tartalmazzon felhasználói rendszert
+Szükséges, hogy a felhasználók különböző jogosultságokkal rendelkezzenek
+Szülséges, hogy a felhasználók adatai megfelelően titkosított módon legyenek tárolva
+Legyenek témakörök
+Legyenek különböző tananyagok
+Legyenek vizsgák, amelyek a tananyagok végén jelennek meg
+Fontos, hogy ne mindig ugyanaz a vizsga jelenjen meg
+
+**Kérem, mondja el forgatókönyv szerűen, hogyan szeretné használni a rendszert a belépéstől a kilépésig!**
+
+Az alkalmazás megnyitása után. kiválasztom a bejelentkezés opciót, ahol egy felhasználónév és egy jelszó segítségével bejelentkezek. A főmenüben kiválasztom a számomra megfelelő tananyagot és feldolgozom azt, majd a végén egy "vizsgával" ellenőrzöm a tudásom.  A vizsga kitöltése után megtekinthetem a az általam elért pontszámot a leaderboardson, ahol a többi felhasználó is megjelenik rangsorba helyezve, a szerint, hogy ki érte el a legtöbb pontot.
+
+**Milyen kivételes helyzetekre kell felkészülni?**
+
+Ha bizonyos kapcsolatok nem hozhatóak létre (Pl.: adatbázis, a kliensből)
+Frissítés esetén verzióeltérés figyelése korábbi verzióra
+Ha a kliens elveszti a kapcsolatot a szerverrel, a szerver erre reagáljon
+
+Modul | ID | Név | V. | Kifejtés
+--- | ---| --- | --- | ---
+Felület | F0 | Wireframe elkészítése | 0.1 | A program által később használandó felület grafikus tervének elkészítése az összes használandó platformon.
+| | FW1 | Webes felület prototípusának elkészítése | 0.2 | Wireframe alapján, a webes felület felépítése.
+| | FA1 | Mobilapp felület prototípusának elkészítése | 0.2b | Wireframe alapján, a mobilos alkalmazás felületének felépítése.
+| | Fx | A felületek véglegesítése | 1 | A program releasekor használatos felületet ekkor érjük el, nagyobb változtatást nem igényel.
+Adatbázis | A0 | Adatbázis tervezés | 0.1 | Használandó adatbázis kiválasztása, illetve a későbbiekben használatos adatbázis struktúrájának kigondolása
+| | A1 | Adatbázis létrehozása | 0.2 | A kigondolt terv alapján felvinni a táblákat és elemeiket.
+| | A2 | Adatbázis tesztelése | 0.3 | A létrehozott adatbázis struktúrájának tesztelése véletlenszerű adatokkal, constraintek jól működnek-e.
+| | Ax | Adatbázis véglegesítés | 1 | A program releasekor ezt az adatbázis struktúrát fogjuk használni, nagyobb változtatást nem igényel.
+Back-end | B0 | A backend struktúra kigondolása | 0.1 | A program háttérje mögött álló elemek kigondolása: Milyen függvényekre lesz szükségünk az apphoz, milyen dbconnectort használjunk hozzá stb
+
+Készitette: [Dudás Bálint](https://www.github.com/DudiVok) és [Szűcs Norbert](https://www.github.com/norbert-szucs)
+
 ## 9. Riportok
 
 ## 10. Fogalomszótár
