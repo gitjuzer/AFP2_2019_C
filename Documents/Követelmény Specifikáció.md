@@ -1,11 +1,11 @@
-## 1. Áttekintés
+﻿## 1. Áttekintés
 
 Az alkalmazás célja játékos módú iskolai tanulmányokat kiegészítő tanulási lehetőség biztosítása általános iskolásoknak.
 Az alkalmazás rendelkzik Web és Android felülettel, mindkettő módon elérhető az összes felhasználói funkció. A tananyagok tantárgyak, azon belül pedig témakörök szerint vannak osztályozva. A témakörökben a diákok tananyagot és ahhoz tartozó teszteket (kiegészítős, feleletválasztós, összekötős, közelítős) találnak. Ezek megoldására idő és pontosság alapján pontszámot kapnak a tanulók. Az eredmények megjelennek az adott feladat mellett, illetve az összesített pontszám megjelenik egy külön menüpontban. (összesített pontszámok).
 
 by: [Gajdár Krisztián](https://www.github.com/gajdikuka)
 
-## 2. Jelenlegi Helyzet
+## 2. Jelenlegi helyzet
 Az oktatásért felelős szervek hierarchikus rendszerében legalul foglalnak helyet az iskolák. Ebből adodóan nem azok alakítják ki a tanrendet akik a tanulók érdekeit tartják szem előtt.
 
 Jelenleg az oktatás:
@@ -18,7 +18,7 @@ Jelenleg az oktatás:
 
 Mindezek miatt a mai oktatás alapvetően nyomasztó és demotiváló hatással bír.
 
-## 3. Vágyálom Rendszer 
+## 3. Vágyálom rendszer 
 
 **3.1. Terjedés: kik használják a rendszert**
 
@@ -58,7 +58,7 @@ rendszergazdák az adattárolást, valamint a dataanalitikusok programjainak muk
 
 Készítette: Gergely Dávid és [Vincze Flórián](https://www.github.com/Fagyesz)
 
-## 4. Funkcionális Követelmények
+## 4. Funkcionális követelmények
 
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
@@ -72,7 +72,7 @@ Készítette: Gergely Dávid és [Vincze Flórián](https://www.github.com/Fagye
 a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezéséről (általános adatvédelmi rendelet)
 - MMXI. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról ( Infotv.)
 
-## 6. Jelenlegi Üzleti Folyamatok Modellje
+## 6. Jelenlegi üzleti folyamatok modellje
 
 Komplex tanulástámogató rendszer fejlesztése.
 1. A cégvezető felveszi a párt központi emberével a kapcsolatot, aki megfelelő politikai irányultság esetén továbbajánlja a KLIKK-hez.
@@ -84,7 +84,7 @@ Komplex tanulástámogató rendszer fejlesztése.
 7. A pályázati pénzekből a tanácsadó cégeket kifizetjük.
 
 
-## 7. Igényelt Üzleti Folyamatok
+## 7. Igényelt üzleti folyamatok
 
 Szórakoztató tanulási folyamat:
 

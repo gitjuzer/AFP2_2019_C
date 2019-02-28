@@ -1,5 +1,4 @@
-﻿
-## 1. Jelenlegi helyzet
+﻿## 1. Jelenlegi helyzet
 A program az oktatás jelenlegi problémáira kínál megoldást, mely egy sokkal inkább interaktívabb és rugalmasabb tanulást biztosít a tanulóknak számára akár az iskola keretein kívül is. 
 
 A felmerülő problémák megoldásai:
