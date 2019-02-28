@@ -43,7 +43,7 @@ akár az órán szerzett érdemjeggyel is összehasonlítható, így felmérve, 
 rövid távon a hallgató tanulmányi eredményének enyhe javulása, majd később miután a használat otthon is rendszeressé vált így az unalmas házi feladatok intézményét felváltva
 a diákban rejlő potenciál maximális kihasználása.
 
-**3.4. Folyamatosan frissül és bovül az új igényeknek megfeleloen**
+**3.4. Folyamatosan frissül és bovül az új igényeknek megfelelően**
 
 Minden félév végén a tanárok a diák programhasználati logjait, adathalmazait, valamint enaplós érdemjegyeit a fejlesztőcsapat segítségére, rendelkezésére szolgáltatják.
 Így a programozók és a velük együttmuködő magasan képzett oktatástechnikai munkatársak, a programban résztvevő szaktanárok és a szaktárca képviseloi elemzik az egyes
@@ -104,7 +104,7 @@ A tananyagot biztosítani kell, hogy az bármikor elérhető legyen a diák szá
 
 ## 8. Követelmény Lista
 
-**Mik a rendszer fontos tulajdonágai**
+**Mik a rendszer fontos tulajdonságai**
 
 Fontos, hogy tartalmazzon felhasználói rendszert
 Szükséges, hogy a felhasználók különböző jogosultságokkal rendelkezzenek
@@ -114,7 +114,7 @@ Legyenek különböző tananyagok
 Legyenek vizsgák, amelyek a tananyagok végén jelennek meg
 Fontos, hogy ne mindig ugyanaz a vizsga jelenjen meg
 
-**Kérem, mondja el forgatókönyv szerűen, hogyan szeretné használni a rendszert a belépéstől a kilépésig!**
+**Kérem, mondja el forgatókönyvszerűen, hogyan szeretné használni a rendszert a belépéstől a kilépésig!**
 
 Az alkalmazás megnyitása után. kiválasztom a bejelentkezés opciót, ahol egy felhasználónév és egy jelszó segítségével bejelentkezek. A főmenüben kiválasztom a számomra megfelelő tananyagot és feldolgozom azt, majd a végén egy "vizsgával" ellenőrzöm a tudásom.  A vizsga kitöltése után megtekinthetem a az általam elért pontszámot a leaderboardson, ahol a többi felhasználó is megjelenik rangsorba helyezve, a szerint, hogy ki érte el a legtöbb pontot.
 
