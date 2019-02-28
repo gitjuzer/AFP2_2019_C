@@ -74,6 +74,16 @@ a természetes személyeknek a személyes adatok kezelése tekintetében törté
 
 ## 6. Jelenlegi Üzleti Folyamatok Modellje
 
+Komplex tanulástámogató rendszer fejlesztése.
+1. A cégvezető felveszi a párt központi emberével a kapcsolatot, aki megfelelő politikai irányultság esetén továbbajánlja a KLIKK-hez.
+2. A központi elképzelés szerint létrehozzuk a progromokat, úgy, hogy az aktuális uniós pályázatból finanszírozható legyen.
+3. Prezentáljuk az elképzelést és a várható profitot, és ennek megoszlását a döntésben résztvevő embereknek, felvesszük a megfelelő tanácsadó cégeket a projekthez
+4. Megadjuk a paramétereket a pályázatok kiírásához, a párt pályázatíró cége megírja számunkara a pályázatot.
+5. Írunk valami programot, ha szerencsénk van, még működik is, próbáljuk elkerülni a sajtóvisszhangot.
+6. Átadjuk a rendszert.
+7. A pályázati pénzekből a tanácsadó cégeket kifizetjük.
+
+
 ## 7. Igényelt Üzleti Folyamatok
 
 Szórakoztató tanulási folyamat:
