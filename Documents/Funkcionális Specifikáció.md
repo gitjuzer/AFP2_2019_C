@@ -15,6 +15,24 @@ A felmerülő problémák megoldásai:
 ## 5. Jelenlegi üzleti folyamatok modellje
 ## 6. Igényelt üzleti folyamatok
 ## 7. Használati esetek
+Szereplők:
+- Tanár
+- Diák
+
+Tevékenységek:
+- Tanár: 
+	- azonosító alapú regisztráció
+	- bejelentkezés tanárként
+	- tananyagok létrehozása és kezelése
+	- saját tananyagokkal kapcsolatos statisztikák megtekintése
+	- profil szerkesztése
+- Diák:
+	- regisztráció diákként
+	- bejelentkezés diákként
+	- tananyag megtekintése
+	- tesztek megoldása
+	- statisztikák megtekintése
+	- profil szerkesztése
 ## 8. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 9. Képernyő tervek
 ## 10. Forgatókönyv
