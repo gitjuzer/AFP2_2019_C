@@ -60,6 +60,28 @@ Készítette: Gergely Dávid és [Vincze Flórián](https://www.github.com/Fagye
 
 ## 4. Funkcionális követelmények
 
+**4.1. Felhasználói lehetőségek
+- Ki és bejelentkeztetési lehetőség illetve regisztráció.
+- Személyes előrehaladás áttekintése, elvégzett leckék és elolvasott témakörök.
+- Általános fiókbeállítások
+- Ranglista témakörökre osztva
+
+**4.2 Oktatási lehetőségek
+- Általános témakörök felsorolása
+- Témakörökre osztott témák
+- Témánkénti előrehaladás jelzése
+- Infografika témánként
+- Vizsgalehetőség az elolvasott témák után
+- Offline elérhetőség a már megnyitott témáknál
+
+**4.3 Feladattípusok
+- kvíz (feleletválasztás)
+- párosítás
+- szöveg kiegészítés felajánlott lehetőségek alapján
+- tipp
+
+Készítette: Berényi Szabolcs és Guth Dániel
+
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
 **5.1. Szerzői jogszabályok:**
