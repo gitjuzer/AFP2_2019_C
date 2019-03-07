@@ -34,6 +34,9 @@ Tevékenységek:
 	- profil szerkesztése
 ## 8. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ## 9. Képernyő tervek
+A képernyő tervek véglegesítés előtt a következő linken érhetőek el:
+[https://xd.adobe.com/view/eff62009-2522-4066-7d5b-3c6d5682baeb-99c7/](https://xd.adobe.com/view/eff62009-2522-4066-7d5b-3c6d5682baeb-99c7/)
+
 ## 10. Forgatókönyv
 
 __10.1 Applikációs felület (csak diákoknak)__
