@@ -61,7 +61,7 @@ Készítette: Gergely Dávid és [Vincze Flórián](https://www.github.com/Fagye
 ## 4. Funkcionális követelmények
 
 **4.1. Felhasználói lehetőségek**
-- Ki és bejelentkeztetési lehetőség illetve regisztráció.
+- Ki és bejelentkeztetési lehetőség illetve regisztráció (Regisztráció külön diák és tanár részére).
 - Személyes előrehaladás áttekintése, elvégzett leckék és elolvasott témakörök.
 - Általános fiókbeállítások
 - Ranglista témakörökre osztva
