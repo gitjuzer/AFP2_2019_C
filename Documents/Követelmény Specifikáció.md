@@ -80,7 +80,7 @@ Készítette: Gergely Dávid és [Vincze Flórián](https://www.github.com/Fagye
 - szöveg kiegészítés felajánlott lehetőségek alapján
 - tipp
 
-Készítette: [Berényi Szabolcs](https://github.com/Szabbi97) és [Guth Dániel] (https://github.com/Guth27)
+Készítette: [Berényi Szabolcs](https://github.com/Szabbi97) és [Guth Dániel](https://github.com/Guth27)
 
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
