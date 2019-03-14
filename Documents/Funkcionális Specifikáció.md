@@ -63,7 +63,7 @@ tartozó leírás, ismeretanyag, az elsajátítandó dolgok következnek, majd a
 3 rossz és egy jó válasz jelenik meg a képernyon, a jóra kattintva extra információk, érdekességek jelennek meg pluszban az adott anyagról. Azt is kiírja, hogy mennyi idot vett igénybe a válaszadás és ez
 hány pontot ért. Teljesítés után tovább gombra nyomva visszatérünk a témakörökhöz.
 
-Jelenlegi üzleti folyamatok modellje még nem áll rendelkezésre, elkészültét követoen a fentiek bovíthetok.
+
 
 
 ## 7. Használati esetek
