@@ -32,20 +32,23 @@ Ez a folyamat 12 éven keresztül tart(ez kicsit több mint amit előremegfontol
 ## 6. Igényelt üzleti folyamatok modellje
 
 **6.1.milyen fobb üzleti folyamatokat kell a rendszer megvalósítson**
-A program eléréséhez a diákok számára egy webhelyrol kell letölteni egy applikációt, a tanárok egy webes felületen kell regisztráljanak.
-Az elso funkciók a regisztrációs képernyok, ez 2 felületbol áll. Az elson eldöntheto, hogy regisztrálunk e, vagy érvényes hozzáférés birtokában
+A program eléréséhez a diákok számára egy webhelyről kell letölteni egy applikációt, a tanárok egy webes felületen kell regisztráljanak.
+Az első funkciók a regisztrációs képernyok, ez 2 felületből áll. Az elsőn eldönthető, hogy regisztrálunk e, vagy érvényes hozzáférés birtokában
 bejelentkezünk a rendszerbe. Amennyiben még nem rendelkezünk fiókkal a 2. felületre érkezünk a regisztráció gombra való kattintást követoen.
-Itt szükséges adatokként meg kell adnunk a felhasználónevet, email címet, jelszót, valamint annak megerosítését. Ezeket az adatokat egy külön adatbázisban javasoljuk eltárolni, 
+Itt szükséges adatokként meg kell adnunk a felhasználónevet, email címet, jelszót, valamint annak megerősítését. Ezeket az adatokat egy külön adatbázisban javasoljuk eltárolni, 
 amihez további felületeket hozunk létre. 
+
 **6.2.milyen felhasználók vannak a rendszerben(hallgató, tanár etc), hogyan jön létre a szerepkör**
-A regisztrációs panelen 2 féle különbözo szerepkör közül választhatunk, ha hallgatóként regisztrálunk, akkor a sikeres feliratkozást követoen egy applikáció
-töltodik le a mobiltelefonunkra, melynek futtatásával hívjuk elo a programot. Tanárként egy webes felületre érkezünk.
+A regisztrációs panelen 2 féle különbözo szerepkör közül választhatunk, ha hallgatóként regisztrálunk, akkor a sikeres feliratkozást követően egy applikáció
+töltődik le a mobiltelefonunkra, melynek futtatásával hívjuk elő a programot. 
+Tanárként egy webes felületre érkezünk.
 A tanár felületén 2 panel jelenik meg, "osztályok menedzselése" és "játékok listája" nevekkel. Ha az "osztályok menedzselését" megnyitjuk, akkor 3 panel jelenik meg,
-osztály létrehozása, osztály aktivitása, diákok elért eredményei. Ha az osztály létrehozására nyomunk, akkor egy fül ugrik fel középen: kérem adja meg a kívánt osztályt pl. 11.C, ennek 
+osztály létrehozása, osztály aktivitása, diákok elért eredményei.
+Ha az osztály létrehozására nyomunk, akkor egy fül ugrik fel középen: kérem adja meg a kívánt osztályt pl. 11.C, ennek 
 beírását követoen megjelenik egy új felület, ahol egy tábla található a felület nagy részén, még pontosan nem definiált adatokkal, a bal oldalon egy kis sávban variációs 
-lehetoségek vannak gombok formájában. Hallgató hozzáadása, hallgató törlése, üzenet írása. Ha hallgatót akarunk törölni, vagy hozzáadni, akkor a választott gombra nyomunk, miután
+lehetőségek vannak gombok formájában. Hallgató hozzáadása, hallgató törlése, üzenet írása.Ha hallgatót akarunk törölni, vagy hozzáadni, akkor a választott gombra nyomunk, miután
 felugrik középen egy kisebb menüsor, itt meg kell adni a hallagtó nevét, neptun kódját, majd a sor alján található töröl, vagy hozzáad paranccsal erosíthetjük meg a szándékot.
-A tanár akár egyénenként is írhat, vagy csoportosan is üzenetet a hallgatóknak pl: Józsi csináld meg az x játék 3-as modulját még kétszer, vagy Mindenkinek - Jövo héten dolgozat.
+A tanár akár egyénenként is írhat, vagy csoportosan is üzenetet a hallgatóknak pl: Józsi csináld meg az x játék 3-as modulját még kétszer, vagy Mindenkinek - Jövő héten dolgozat.
 Az üzenet írása gombra való kattintás után egy új ablak ugrik fel, mely részekre van osztva, elszeparálva nagy részben az üzenet írására, az üzenet témája, mint fejléc, az üzenet címzettjei,
 ahol felsorolással, vagy az osztály nevével hivatkozhatunk a címzettekre.
 A játékok listájára kattintva két panel jelenik meg a játék beállítások, valamint a statisztikák. Az elsovel a tanár módosíthat, játszhat és egyéb még fejlesztés alatt álló cselekményeket végezhet.
@@ -53,8 +56,9 @@ A másodikkal az osztályok, valamint az egyes diákok által elért teszteredm�
 adatok is megadhatóak, így számos szempontból elemezhetové válnak az eltárolt adatok.
 Ezekhez szükségünk van egy újabb adatbázis modellre, a fent ismertetett és bemutatott felületekre, a gombok, menük, egyéb funkciók megvalósítására, valamint egy szerver-kliens kapcsolat létesítéséhez
 tervezett modellre.
-Diákként a belépést követoen megjelennek a témakörök. ABC sorrendben fentrol lefelé haladva lehet áttekinteni oket pl: irodalom.. matematika.. történelem.., alapból az elso 3 leckét mutatja a mobiltelefon 
-kijelzoje közvetlenül a témakör megnevezése alatt. Balról jobbra haldva ABC sorrendben mehetünk végig a leckéken pl. Arany János.. Balassa Bálint.. Petofi Sándor.. . A konkrét leckére kattintva eloször a leckéhez
+
+Diákként a belépést követően megjelennek a témakörök. ABC sorrendben fentrol lefelé haladva lehet áttekinteni oket pl: irodalom.. matematika.. történelem.., alapból az elso 3 leckét mutatja a mobiltelefon 
+kijelzoje közvetlenül a témakör megnevezése alatt. Balról jobbra haldva ABC sorrendben mehetünk végig a leckéken pl. Arany János.. Balassa Bálint.. Petőfi Sándor.. . A konkrét leckére kattintva eloször a leckéhez
 tartozó leírás, ismeretanyag, az elsajátítandó dolgok következnek, majd azok végiglapozását követoen egy vizsga gombra kattintva lehet számot adni a tudásról. Itt majd különféle tesztek lesznek jelenleg feleletválasztós
 3 rossz és egy jó válasz jelenik meg a képernyon, a jóra kattintva extra információk, érdekességek jelennek meg pluszban az adott anyagról. Azt is kiírja, hogy mennyi idot vett igénybe a válaszadás és ez
 hány pontot ért. Teljesítés után tovább gombra nyomva visszatérünk a témakörökhöz.
