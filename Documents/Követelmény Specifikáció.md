@@ -163,3 +163,10 @@ Készitette: [Dudás Bálint](https://www.github.com/DudiVok) és [Szűcs Norber
 ## 9. Riportok
 
 ## 10. Fogalomszótár
+
+| Fogalom | Jelentés |
+| ------- | -------- |
+| Leaderboard | A felhasználók tesztjeit pontszám alapján rangsoroljuk. Ezek itt találhatóak meg. |
+| Előrehaladás | Bizonyos témakörök több részből állnak. Az ezekkel való haladásukat tároljuk. |
+| Offline működés | Az alkalmazás akkor is működjön, ha a szerver nem működik, vagy a kliens nem tud csatlakozni a kiszolgálóhoz. |
+| Értesítés | Mobilos alkalmazás esetén vagy webes böngészőknél értesítéseket küldhetünk újabb témakörök létrejötte esetén |
