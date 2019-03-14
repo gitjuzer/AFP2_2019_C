@@ -148,15 +148,20 @@ Ha a kliens elveszti a kapcsolatot a szerverrel, a szerver erre reagáljon
 
 Modul | ID | Név | V. | Kifejtés
 --- | ---| --- | --- | ---
-Felület | F0 | Wireframe elkészítése | 0.1 | A program által később használandó felület grafikus tervének elkészítése az összes használandó platformon.
-| | FW1 | Webes felület prototípusának elkészítése | 0.2 | Wireframe alapján, a webes felület felépítése.
-| | FA1 | Mobilapp felület prototípusának elkészítése | 0.2b | Wireframe alapján, a mobilos alkalmazás felületének felépítése.
-| | Fx | A felületek véglegesítése | 1 | A program releasekor használatos felületet ekkor érjük el, nagyobb változtatást nem igényel.
-Adatbázis | A0 | Adatbázis tervezés | 0.1 | Használandó adatbázis kiválasztása, illetve a későbbiekben használatos adatbázis struktúrájának kigondolása
-| | A1 | Adatbázis létrehozása | 0.2 | A kigondolt terv alapján felvinni a táblákat és elemeiket.
-| | A2 | Adatbázis tesztelése | 0.3 | A létrehozott adatbázis struktúrájának tesztelése véletlenszerű adatokkal, constraintek jól működnek-e.
-| | Ax | Adatbázis véglegesítés | 1 | A program releasekor ezt az adatbázis struktúrát fogjuk használni, nagyobb változtatást nem igényel.
-Back-end | B0 | A backend struktúra kigondolása | 0.1 | A program háttérje mögött álló elemek kigondolása: Milyen függvényekre lesz szükségünk az apphoz, milyen dbconnectort használjunk hozzá stb
+User | U_Reg | Regisztráció | 0.2 | A felület eléréséhez felhasználói fiók szükséges. Ehhez természetesen elengedhetetlen egy regisztrációs felület is.
+| | U_Login | Bejelentkezés | 0.2 | A felület eléréséhez bejelentkezés szükséges. A felhasználó ezután tudja elérni a különböző funkciókat, illetve a szerver az ő fiókjához csatoltan tárol különböző adatokat.
+| | U_Logout | Kijelentkezés | 0.2 | Ha a kliens felhasználót szeretne cserélni akkor elengedhetetlen egy kijelentkező felület. Ezután a kliens visszatér a bejelentkező képernyőre
+| | U_FPW | Elfelejtett jelszó | 0.2 | Ha a kliens elfelejti a jelszavát akkor valamilyen módon vissza kell tudnia szerezni, anélkül hogy huzamosabb időt és energiát kellene belefektetnie. Ezt egy email bevitelével megteheti, amire kiküldjük az adott emailhez tartozó felhasználó jelszavát.
+| | U_Perm | Jogosultság | 0.3 | A jogosultság rendszere elengedhetetlen ahhoz, hogy bizonyos felhasználóknak engedélyt tudjunk adni komolyabb dolgokhoz, míg egy általános felhasználónak ne engedjünk ilyent.
+| | U_Opt | Általános beállítások | 0.4 | Mind a mobil, mind a webes felületen elérhetővé kell tennie egy beállítások felületet ahol a felhasználó egyedi preferanciák alapján képes lesz beállítani dolgokat (Pl.: Nyelv, Értesítések, Felhasználó adatainak módosítása)
+Vizsga | V_Topics | Témák kilistázása | 0.5 | A felhasználó kitudja listáztatni az adott témákat (Pl.: Irodalom / Matematika / Történelem)
+| | V_SubTops | Altémák | 0.5 | A felhasználó miután kiválasztja az általa kívánt témát, ezen belül lesznek altémák is (Pl.: Történelem esetén a 2. világháború)
+| | V_Exam | Teszt | 0.6 | Ha egy felhasználó kiválasztotta az általa kívánt témát és altémát lehetősége lesz olvasni az adott témakörben és egy teszt kitöltésére is, amiben megtudhatja mennyire jól értelmezte az adott témakört.
+| | V_MarkedEx | Kiértékelt tesztek | 0.6 | Egy teszt kitöltése után a felhasználó láthatja az elért pontszámát, de ezt tároljuk, és bármikor megtekinthető újra, hogy hogyan is szerepelt a tesztben. Erre alapul majd a ranglista.
+Általános | G_Progress | Profil előrehaladás | 0.7 | Minden témában több altéma van. Ezek kitöltésének állapotát témakörökre bontva, százalékos értékkel tároljuk.
+| | G_Leaderb | Ranglista | 0.8 | Itt megtalálható lesz egy felületen, az adott témakörre, vagy összesített pontszám alapján a legjobb értékelést kapott felhasználók.
+| | G_Noti | Értesítések | 1.0 | A kész program értesítéseket küldhet a felhasználónak különböző események alatt (Pl.: Új témakör érhető el)
+| | G_Offline | Offline működés | 1.1 | A programnak tárolnia kell a felhasználó jelenlegi előrehaladását, akkor is ha valamiért nem tud csatlakozni a szerverre. Az adatokat akkor fogja továbbítani a szerver felé, ha újra kapcsolatot tud létesíteni vele.
 
 Készitette: [Dudás Bálint](https://www.github.com/DudiVok) és [Szűcs Norbert](https://www.github.com/norbert-szucs)
 
