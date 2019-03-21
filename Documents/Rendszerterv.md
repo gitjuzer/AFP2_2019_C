@@ -52,14 +52,18 @@ Modul | Megnevezés | Hogyan elégítjük ki a követelményt?
 ## 6. Fizikai környezet
 ## 7. Absztrakt domain modell
 ## 8. Architekturális terv
-
 A rendszer 3 rétegből fog állni. Adatbázis réteg az első, erre épül egy logikai réteg, majd a prezentációs réteg. A prezentációs réteg 2 részből fog állni, egy webes felület és egy mobil alkalmazás. A logikai rétek köti össze az adatbázis és prezentációs réteget. A felmerülő változásokat a webes felületen automatikusan frissítésre kerülnek, a felhasználóknak ezzel kapcsolatban nincs teendője. Mobil alkalmazás esetén az alkalmazás automtikusan frissül, amennyiben ez nincs engedélyezve figyelmeztető üzenet jelenik meg az elérhető frissítésről. Meghatározott tervezési minták és alapelvek betartásával a rendszer könnyen és következetesen bővíthető. A rendszer modulokból és pluginekből fog áll, ezzel is a bővtést megkönnyítve. A logikai réteg jogkörtől függően enged hozzáférést az adatokhoz az adatbázisban ezzel fenntartva a biztonságot.
-
 ## 9. Adatbázis terv
 ## 10. Implementációs terv
 ## 11. Tesztterv
 ## 12. Telepítési terv
-
 A rendszer  bevezetésekor szükség  lehet  a  személyzet  képzésére, mely  szintén megállapodás tárgyát képezi,   figyelembe   véve   a   ráfordítások   nagyságát.   Ez   a   lépés   nagyban   javíthata   a   rendszer hatékonyságát, illetve segíti a szoftver „személyre szabását”, a jogosultsági szintek helyes beállítását.
-
 ## 13. Karbantartási terv
+Az  üzemeltetés  a  rendszergazda  feladata.  A  rendszergazda  lehet  a  megrendelő  munkatársa,  vagy külső munkaerő is. Az üzemeltetés során elvárás:
+- a rendszeres biztonsági mentés
+- meghibásodás esetén az utolsó konzisztens állapot visszaállítása
+- a rendszer frissítése
+- az általános átvizsgálás során észlelt hibák javítása
+- bejelentések során érkezett hibák javítása
+- a munkatársak igényeinek folyamatos figyelése és felmérése
+- biztonsági beállítások folyamatos felülvizsgálata és szükség esetén korrigálásuk.
