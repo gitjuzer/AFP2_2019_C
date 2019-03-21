@@ -1,4 +1,4 @@
-## 1. A rendszer célja
+﻿## 1. A rendszer célja
 
 A rendszer célja, hogy tanulási lehetőséget biztosítson a diákok számára játékos formában, illetve egy könnyen menedzselhető felületet a tanárok számára, akik feltölthetik ide tananyagaikat. A diákok kiválaszhatnak tananyagokat, amiknek a végére érve egy játékos feladványt kitöltve mérettethetik meg tudásukat. A teljesítményeket mind a diákok, mind a tanárok képesek követni egy ranglista által. Így próbáljuk a diákokat motiválni a tanulásra, és elérni, hogy úgy fejlődhessenek, hogy közbe jól érzik magukat.
 
@@ -34,6 +34,20 @@ by Vincze Flórián,Dávid Gergely
 
 ## 3. Üzleti folyamatok modellje
 ## 4. Követelmények
+
+Modul | Megnevezés | Hogyan elégítjük ki a követelményt?
+---|---|---
+<architektúra terv hivatkozás> | Regisztráció | funkcionálos terv hivatkozás |
+ - | Bejelentkezés |  |
+ - | Kijelentkezés |  |
+ - | Elfelejtett jelszó |  |
+ - | Általános beállítások |  |
+ - | Témák kilistázása |  |
+ - | Teszt |  |
+ - | Profil előrehaladás |  |
+ - | Ranglista | |
+ - | G_Offline | |
+
 ## 5. Funkcionális terv
 ## 6. Fizikai környezet
 ## 7. Absztrakt domain modell
