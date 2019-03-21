@@ -45,3 +45,11 @@ A rendszer 3 rétegből fog állni. Adatbázis réteg az első, erre épül egy 
 ## 12. Telepítési terv
 A rendszer  bevezetésekor szükség  lehet  a  személyzet  képzésére, mely  szintén megállapodás tárgyát képezi,   figyelembe   véve   a   ráfordítások   nagyságát.   Ez   a   lépés   nagyban   javíthata   a   rendszer hatékonyságát, illetve segíti a szoftver „személyre szabását”, a jogosultsági szintek helyes beállítását.
 ## 13. Karbantartási terv
+Az  üzemeltetés  a  rendszergazda  feladata.  A  rendszergazda  lehet  a  megrendelő  munkatársa,  vagy külső munkaerő is. Az üzemeltetés során elvárás:
+- a rendszeres biztonsági mentés
+- meghibásodás esetén az utolsó konzisztens állapot visszaállítása
+- a rendszer frissítése
+- az általános átvizsgálás során észlelt hibák javítása
+- bejelentések során érkezett hibák javítása
+- a munkatársak igényeinek folyamatos figyelése és felmérése
+- biztonsági beállítások folyamatos felülvizsgálata és szükség esetén korrigálásuk.
