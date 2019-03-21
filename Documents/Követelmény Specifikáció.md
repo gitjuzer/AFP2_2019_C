@@ -96,15 +96,7 @@ a természetes személyeknek a személyes adatok kezelése tekintetében törté
 
 ## 6. Jelenlegi üzleti folyamatok modellje
 
-Komplex tanulástámogató rendszer fejlesztése.
-1. A cégvezető felveszi a párt központi emberével a kapcsolatot, aki megfelelő politikai irányultság esetén továbbajánlja a KLIKK-hez.
-2. A központi elképzelés szerint létrehozzuk a progromokat, úgy, hogy az aktuális uniós pályázatból finanszírozható legyen.
-3. Prezentáljuk az elképzelést és a várható profitot, és ennek megoszlását a döntésben résztvevő embereknek, felvesszük a megfelelő tanácsadó cégeket a projekthez
-4. Megadjuk a paramétereket a pályázatok kiírásához, a párt pályázatíró cége megírja számunkara a pályázatot.
-5. Írunk valami programot, ha szerencsénk van, még működik is, próbáljuk elkerülni a sajtóvisszhangot.
-6. Átadjuk a rendszert.
-7. A pályázati pénzekből a tanácsadó cégeket kifizetjük.
-
+Szóval milyen az iskola? Az iskolában tanárok tanítják a diákokat, egyszerer több tucat diákra jut egyetlen tanár 45 perces órák vannak, közötte 10-15 perces szünetekkel. Naponta általában 6-8 óra van. A követelményeket törvények írják elő. A jelenlegi rendszer rugalmatlan és nem veszi figyelembe a diák egyéni igényeit. Központilag irányított, az előírásoktól 10%-ban lehet eltérni a tanárnak. Csengetéskor elkezdődik az óra, mindenki bemegy a terembe, ellenőrzik a létszámot és a tanár elmondja a napi anyagot, szemlétetni és feladatokat ad za anyaggal kapcsolatban amiket a diákok megpróbálnak megoldani. Ha szükséges a tanár seígtséget nyújt a kiosztott feladatok megoldásában. Az órai anyaghoz kapcsolódó feladatokat otthoni munkára ad ki(házi feladat), kicsengetéskor vége lesz az órának és a tanár elhagyja a termet. A diákok felkészülnek a következő órára, ahol szintén ugyanez történik. A nap végére egy diáknak áltaálban 3-4 órányi otthoni munka jut a tanórán felül. Gyakorlatilag 60 órás "munkahetekkel" dolgoznak a diákok éveken keresztül. Ez nagyon demotiváló és kimerítő gyermekkorban. Ez a folyamat 12 éven keresztül tart(ez kicsit több mint amit előremegfontolt nyereségvágyból elkövetett gyilkosságért szoktak adni).
 
 ## 7. Igényelt üzleti folyamatok
 
