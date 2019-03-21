@@ -1,43 +1,19 @@
-## 1. A rendszer cÃ©lja
+## 1. A rendszer célja
 
-A rendszer cÃ©lja, hogy tanulÃ¡si lehetÅ‘sÃ©get biztosÃ­tson a diÃ¡kok szÃ¡mÃ¡ra jÃ¡tÃ©kos formÃ¡ban, illetve egy kÃ¶nnyen menedzselhetÅ‘ felÃ¼letet a tanÃ¡rok szÃ¡mÃ¡ra, akik feltÃ¶lthetik ide tananyagaikat. A diÃ¡kok kivÃ¡laszhatnak tananyagokat, amiknek a vÃ©gÃ©re Ã©rve egy jÃ¡tÃ©kos feladvÃ¡nyt kitÃ¶ltve mÃ©rettethetik meg tudÃ¡sukat. A teljesÃ­tmÃ©nyeket mind a diÃ¡kok, mind a tanÃ¡rok kÃ©pesek kÃ¶vetni egy ranglista Ã¡ltal. Ãgy prÃ³bÃ¡ljuk a diÃ¡kokat motivÃ¡lni a tanulÃ¡sra, Ã©s elÃ©rni, hogy Ãºgy fejlÅ‘dhessenek, hogy kÃ¶zbe jÃ³l Ã©rzik magukat.
+A rendszer célja, hogy tanulási lehetõséget biztosítson a diákok számára játékos formában, illetve egy könnyen menedzselhetõ felületet a tanárok számára, akik feltölthetik ide tananyagaikat. A diákok kiválaszhatnak tananyagokat, amiknek a végére érve egy játékos feladványt kitöltve mérettethetik meg tudásukat. A teljesítményeket mind a diákok, mind a tanárok képesek követni egy ranglista által. Így próbáljuk a diákokat motiválni a tanulásra, és elérni, hogy úgy fejlõdhessenek, hogy közbe jól érzik magukat.
 
 ## 2. Projekt terv
-Projekt terv: Itt soroljuk fel a rendszer lÃ©trehozÃ¡sÃ¡hoz rendelkezÃ©sre Ã¡llÃ³ erÅ‘forrÃ¡sokat. Ezek
-kÃ¶zÃ¼l a kÃ©t legfontosabb az emberek Ã©s az idÅ‘. Fontos tisztÃ¡zni a felelÅ‘ssÃ©gi kÃ¶rÃ¶ket. Itt adjuk
-meg az Ã¼temterv alapjÃ¡n a mÃ©rfÃ¶ldkÃ¶veket. RÃ©szei:
-
-**Projekt szerepkÃ¶rÃ¶k, felelÅ‘ssÃ©gek**
-- szerepkÃ¶rÃ¶k
-    - scrum master: Bettenbuk DÃ¡niel
-    - senior fejlesztÅ‘k: 1. CsutorÃ¡s PÃ©ter, 2. BerÃ©nyi Szabolcs, 3.Guth DÃ¡niel, 4.  Hajas GÃ¡bor
-    - junior fejlesztÅ‘k: 1. DudÃ¡s BÃ¡lint, 2. GajdÃ¡r KrisztiÃ¡n, 3. SzÅ±cs Norbert, 4. Offenbacher GÃ©za, 5. LÃ¡zÃ¡r DÃ¡vid,  6. VerÃ©b DÃ¡vid,                            7. Vincze FlÃ³riÃ¡n, 8. DÃ¡vid Gergely, 9. Madaras JÃ³zsef KÃ¡roly
-- felelÅ‘ssÃ©gek:
-    - scrum master: A Scrum mester felÃ¼gyeli Ã©s megkÃ¶nnyÃ­ti a folyamat fenntartÃ¡sÃ¡t, segÃ­ti a csapatot, ha problÃ©mÃ¡ba Ã¼tkÃ¶zik, illetve                      felÃ¼gyeli, hogy mindenki betartja-e a Scrum alapvetÅ‘
-                   szabÃ¡lyait. Ilyen pÃ©ldÃ¡ul, hogy a Sprint idÅ‘tartama nem tÃ©rhet el az elÅ‘re megbeszÃ©lttÅ‘l, mÃ©g akkor sem, ha az                          elvÃ¡llalt munka nem lesz kÃ©sz. LÃ©nyegÃ©ben Å‘ a projekt menedzser.
-    - senior fejlesztÅ‘: A junior fejlesztÅ‘k munkÃ¡jÃ¡nak felÃ¼gyelete Ã©s megkÃ¶nnyÃ­tÃ©se tanÃ¡csadÃ¡s Ã¡ltal, segÃ­thetnek kisebb projektelemek                           elkÃ©szÃ­tÃ©sÃ©ben is.
-    - junior fejlesztÅ‘: A projekt elkÃ©szÃ­tÃ©se.
-**Projekt munkÃ¡sok Ã©s felelÅ‘ssÃ©geik**
-- WebfelÃ¼let: Guth DÃ¡niel, GajdÃ¡r KrisztiÃ¡n, VerÃ©b DÃ¡vid
-- MobilalkalmazÃ¡s: Hajas GÃ¡bor, BerÃ©nyi Szabolcs, DudÃ¡s BÃ¡lint, SzÅ±cs Norbert, Offenbacher GÃ©za
-- Backend: LÃ¡zÃ¡r DÃ¡vid, Madaras JÃ³zsef KÃ¡roly, DÃ¡vid Gergely, Vincze FlÃ³riÃ¡n
-
-A projekt ezen fÃ¡zisa mÃ©g tervezÃ©s alatt, a pontos feladatok mÃ©g nem kerÃ¼ltek megÃ¡llapÃ­tÃ¡sra, TODO
-**Ãœtemterv, MÃ©rfÃ¶ldkÃ¶vek**
-2019. 04. 04. A rendszerterv elkÃ©szÃ­tÃ©sÃ©nek vÃ©gdÃ¡tuma
-2019. 04. 18. AdatbÃ¡zis, kezelÅ‘felÃ¼let, szerver-kliens Ã©s nÃ©hÃ¡ny egyszerÅ±bb funkciÃ³ implementÃ¡lÃ¡sa, elsÅ‘ Ã¡tfogÃ³ tesztek
-2019. 05. 09. Bonyolultabb funkciÃ³k, extra adatbÃ¡zisok, tananyagok, mintavizsgÃ¡k feltÃ¶ltÃ©se, alpha tesztre kÃ©sz
-2019. 05. 23. A program Ã¡tadÃ¡sÃ¡nak cÃ©ldÃ¡tuma
-
-by Vincze FlÃ³riÃ¡n,DÃ¡vid Gergely
-## 3. Ãœzleti folyamatok modellje
-## 4. KÃ¶vetelmÃ©nyek
-## 5. FunkcionÃ¡lis terv
-## 6. Fizikai kÃ¶rnyezet
+## 3. Üzleti folyamatok modellje
+## 4. Követelmények
+## 5. Funkcionális terv
+## 6. Fizikai környezet
 ## 7. Absztrakt domain modell
-## 8. ArchitekturÃ¡lis terv
-## 9. AdatbÃ¡zis terv
-## 10. ImplementÃ¡ciÃ³s terv
+## 8. Architekturális terv
+
+A rendszer 3 rétegbõl fog állni. Adatbázis réteg az elsõ, erre épül egy logikai réteg, majd a prezentációs réteg. A prezentációs réteg 2 részbõl fog állni, egy webes felület és egy mobil alkalmazás. A logikai rétek köti össze az adatbázis és prezentációs réteget. A felmerülõ változásokat a webes felületen automatikusan frissítésre kerülnek, a felhasználóknak ezzel kapcsolatban nincs teendõje. Mobil alkalmazás esetén az alkalmazás automtikusan frissül, amennyiben ez nincs engedélyezve figyelmeztetõ üzenet jelenik meg az elérhetõ frissítésrõl. Meghatározott tervezési minták és alapelvek betartásával a rendszer könnyen és következetesen bõvíthetõ. A rendszer modulokból és pluginekbõl fog áll, ezzel is a bõvtést megkönnyítve. A logikai réteg jogkörtõl függõen enged hozzáférést az adatokhoz az adatbázisban ezzel fenntartva a biztonságot.
+
+## 9. Adatbázis terv
+## 10. Implementációs terv
 ## 11. Tesztterv
-## 12. TelepÃ­tÃ©si terv
-## 13. KarbantartÃ¡si terv
+## 12. Telepítési terv
+## 13. Karbantartási terv
