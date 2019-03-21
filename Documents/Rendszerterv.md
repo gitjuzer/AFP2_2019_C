@@ -16,4 +16,7 @@ A rendszer 3 rétegbõl fog állni. Adatbázis réteg az elsõ, erre épül egy logikai 
 ## 10. Implementációs terv
 ## 11. Tesztterv
 ## 12. Telepítési terv
+
+A rendszer  bevezetésekor szükség  lehet  a  személyzet  képzésére, mely  szintén megállapodás tárgyát képezi,   figyelembe   véve   a   ráfordítások   nagyságát.   Ez   a   lépés   nagyban   javíthata   a   rendszer hatékonyságát, illetve segíti a szoftver „személyre szabását”, a jogosultsági szintek helyes beállítását.
+
 ## 13. Karbantartási terv
