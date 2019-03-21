@@ -1,4 +1,4 @@
-## 1. A rendszer célja
+﻿## 1. A rendszer célja
 
 A rendszer célja, hogy tanulási lehetőséget biztosítson a diákok számára játékos formában, illetve egy könnyen menedzselhető felületet a tanárok számára, akik feltölthetik ide tananyagaikat. A diákok kiválaszhatnak tananyagokat, amiknek a végére érve egy játékos feladványt kitöltve mérettethetik meg tudásukat. A teljesítményeket mind a diákok, mind a tanárok képesek követni egy ranglista által. Így próbáljuk a diákokat motiválni a tanulásra, és elérni, hogy úgy fejlődhessenek, hogy közbe jól érzik magukat.
 
