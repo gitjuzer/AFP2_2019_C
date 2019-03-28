@@ -70,6 +70,7 @@ KG01 | G_Progress | Profil előrehaladás | 0.7 | Minden témában több altéma
 | KG02 | G_Leaderb | Ranglista | 0.8 | Itt megtalálható lesz egy felületen, az adott témakörre, vagy összesített pontszám alapján a legjobb értékelést kapott felhasználók.
 | KG03 | G_Noti | Értesítések | 1.0 | A kész program értesítéseket küldhet a felhasználónak különböző események alatt (Pl.: Új témakör érhető el)
 | KG03 | G_Offline | Offline működés | 1.1 | A programnak tárolnia kell a felhasználó jelenlegi előrehaladását, akkor is ha valamiért nem tud csatlakozni a szerverre. Az adatokat akkor fogja továbbítani a szerver felé, ha újra kapcsolatot tud létesíteni vele.
+
 A logikai réteg jogkörtől függően enged hozzáférést az adatokhoz az adatbázisban ezzel fenntartva a biztonságot.
 ## 9. Adatbázis terv
 ## 10. Implementációs terv
