@@ -36,6 +36,49 @@ a hibázási arány stb.
 kapcsolódóan, és a próbálkozások számát.
 
 ## 3. Követelménylista
+**Mik a rendszer fontos tulajdonságai**
+
+Fontos, hogy tartalmazzon felhasználói rendszert
+Szükséges, hogy a felhasználók különböző jogosultságokkal rendelkezzenek
+Szülséges, hogy a felhasználók adatai megfelelően titkosított módon legyenek tárolva
+Legyenek témakörök
+Legyenek különböző tananyagok
+Legyenek vizsgák, amelyek a tananyagok végén jelennek meg
+Fontos, hogy ne mindig ugyanaz a vizsga jelenjen meg
+
+**Kérem, mondja el forgatókönyvszerűen, hogyan szeretné használni a rendszert a belépéstől a kilépésig!**
+
+Az alkalmazás megnyitása után kiválasztom a bejelentkezés opciót, ahol egy felhasználónév és egy jelszó segítségével bejelentkezek. A főmenüben kiválasztom a számomra megfelelő tananyagot és feldolgozom azt, majd a végén egy "vizsgával" ellenőrzöm a tudásom.  A vizsga kitöltése után megtekinthetem a az általam elért pontszámot a leaderboardson, ahol a többi felhasználó is megjelenik rangsorba helyezve, a szerint, hogy ki érte el a legtöbb pontot.
+
+**Milyen kivételes helyzetekre kell felkészülni?**
+
+Ha bizonyos kapcsolatok nem hozhatóak létre (Pl.: adatbázis, a kliensből)
+Frissítés esetén verzióeltérés figyelése korábbi verzióra
+Ha a kliens elveszti a kapcsolatot a szerverrel, a szerver erre reagáljon
+
+Modul | ID | Név | V. | Kifejtés
+--- | ---| --- | --- | ---
+KU01 | U_Reg | Regisztráció | 0.2 | A felület eléréséhez felhasználói fiók szükséges. Ehhez természetesen elengedhetetlen egy regisztrációs felület is.
+| KU02 | U_Login | Bejelentkezés | 0.2 | A felület eléréséhez bejelentkezés szükséges. A felhasználó ezután tudja elérni a különböző funkciókat, illetve a szerver az ő fiókjához csatoltan tárol különböző adatokat.
+| KU03 | U_Logout | Kijelentkezés | 0.2 | Ha a kliens felhasználót szeretne cserélni akkor elengedhetetlen egy kijelentkező felület. Ezután a kliens visszatér a bejelentkező képernyőre
+| KU04 | U_FPW | Elfelejtett jelszó | 0.2 | Ha a kliens elfelejti a jelszavát akkor valamilyen módon vissza kell tudnia szerezni, anélkül hogy huzamosabb időt és energiát kellene belefektetnie. Ezt egy email bevitelével megteheti, amire kiküldjük az adott emailhez tartozó felhasználó jelszavát.
+| KU05 | U_Perm | Jogosultság | 0.3 | A jogosultság rendszere elengedhetetlen ahhoz, hogy bizonyos felhasználóknak engedélyt tudjunk adni komolyabb dolgokhoz, míg egy általános felhasználónak ne engedjünk ilyent.
+| KU06 | U_Opt | Általános beállítások | 0.4 | Mind a mobil, mind a webes felületen elérhetővé kell tennie egy beállítások felületet ahol a felhasználó egyedi preferanciák alapján képes lesz beállítani dolgokat (Pl.: Nyelv, Értesítések, Felhasználó adatainak módosítása)
+| KV01 | V_Opt | Tananyagok kezelése | 0.5 | A rendszerbe különböző tananyagokat kell felvinni, illetve azokat időközönkét módosítani is kell, amihez szükség van egy felületre.
+| KV02 | V_Exam_Opt | Vizsgák kezelése | 0.5 | A vizsgák kezeléséhez elengedhetetlen egy felület, ahol új vizsgákat tudunk felvinni, a meglévőket szerkeszteni, illetve szükség esetén azokat tudjuk törölni.
+| KV03 | V_Classes | Osztályok kezelése | 0.5 | A tanárok számára elengedhetetlen, hogy a diákok osztályokba legyenek sorolva, illetve azoknak az aktivitását is meg lehessen tekinteni. 
+| KV04 | V_Topics | Témák kilistázása | 0.6 | A felhasználó kitudja listáztatni az adott témákat (Pl.: Irodalom / Matematika / Történelem)
+| KV05 | V_SubTops | Altémák | 0.6 | A felhasználó miután kiválasztja az általa kívánt témát, ezen belül lesznek altémák is (Pl.: Történelem esetén a 2. világháború)
+| KV06 | V_Exam | Teszt | 0.6 | Ha egy felhasználó kiválasztotta az általa kívánt témát és altémát lehetősége lesz olvasni az adott témakörben és egy teszt kitöltésére is, amiben megtudhatja mennyire jól értelmezte az adott témakört.
+| KV07 | V_MarkedEx | Kiértékelt tesztek | 0.7 | Egy teszt kitöltése után a felhasználó láthatja az elért pontszámát, de ezt tároljuk, és bármikor megtekinthető újra, hogy hogyan is szerepelt a tesztben. Erre alapul majd a ranglista.
+KG01 | G_Progress | Profil előrehaladás | 0.7 | Minden témában több altéma van. Ezek kitöltésének állapotát témakörökre bontva, százalékos értékkel tároljuk.
+| KG02 | G_Leaderb | Ranglista | 0.8 | Itt megtalálható lesz egy felületen, az adott témakörre, vagy összesített pontszám alapján a legjobb értékelést kapott felhasználók.
+| KG03 | G_Noti | Értesítések | 1.0 | A kész program értesítéseket küldhet a felhasználónak különböző események alatt (Pl.: Új témakör érhető el)
+| KG03 | G_Offline | Offline működés | 1.1 | A programnak tárolnia kell a felhasználó jelenlegi előrehaladását, akkor is ha valamiért nem tud csatlakozni a szerverre. Az adatokat akkor fogja továbbítani a szerver felé, ha újra kapcsolatot tud létesíteni vele.
+
+Készitette: [Dudás Bálint](https://www.github.com/DudiVok) és [Szűcs Norbert](https://www.github.com/norbert-szucs)
+
+
 ## 4. Rendszerre vonatkozó törvények, szabványok, ajánlások
 ## 5. Jelenlegi üzleti folyamatok modellje
 Szóval milyen az iskola?
