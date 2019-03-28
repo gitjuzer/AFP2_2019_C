@@ -180,4 +180,44 @@ __10.2 Webes felület__:
 - __*10.2.7 Profil adatok*__: Megtekinthetjük, illetve szerkeszthetjük is profilunkat. Ezt, a bejelentkezést követően,  bal oldali menü, *Fiókom* menüpontot kiválasztva tehetjük meg. Itt tekinthetjük meg a fiókunkkal kapcsolatos adatokat *(Előrehaladás, elkészült tananyagok száma, pontszámok, stb.)*, illetve szerkeszthetjük adatainkat.
 
 ## 11. Funkció – követelmény megfeleltetés
+
+1. Ki és bejelentkeztetési lehetőség illetve regisztráció (Regisztráció külön diák és tanár részére).
+-regisztráció: A felület eléréséhez felhasználói fiók szükséges. Ehhez természetesen elengedhetetlen egy regisztrációs felület is.
+-bejelentkezés: A felület eléréséhez bejelentkezés szükséges. A felhasználó ezután tudja elérni a különböző funkciókat, illetve a 
+szerver az ő fiókjához csatoltan tárol különböző adatokat.
+-kijelentkezés: Ha a kliens felhasználót szeretne cserélni akkor elengedhetetlen egy kijelentkező felület. Ezután a kliens visszatér a 
+bejelentkező képernyőre
+-elfelejtett jelszó: Ha a kliens elfelejti a jelszavát akkor valamilyen módon vissza kell tudnia szerezni, anélkül hogy huzamosabb időt 
+és energiát kellene belefektetnie. Ezt egy email bevitelével megteheti, amire kiküldjük az adott emailhez tartozó felhasználó jelszavát.
+
+
+2. Általános fiókbeállítások
+-általános beállítások: Mind a mobil, mind a webes felületen elérhetővé kell tennie egy beállítások felületet ahol a felhasználó egyedi 
+preferanciák alapján képes lesz beállítani dolgokat (Pl.: Nyelv, Értesítések, Felhasználó adatainak módosítása).
+-jogosultság: A jogosultság rendszere elengedhetetlen ahhoz, hogy bizonyos felhasználóknak engedélyt tudjunk adni komolyabb dolgokhoz, 
+míg egy általános felhasználónak ne engedjünk ilyent. Például a tanárok, akik szerkeszthetik akár a feladatokat, míg diákként erre nem 
+nyílik mód.
+-értesítések: A kész program értesítéseket küldhet a felhasználónak különböző események alatt (Pl.: Új témakör érhető el)
+
+3. Ranglista témakörökre osztva
+-kiértékelt tesztek: Egy teszt kitöltése után a felhasználó láthatja az elért pontszámát, de ezt tároljuk, és bármikor megtekinthető 
+újra, hogy hogyan is szerepelt a tesztben. Erre alapul majd a ranglista.
+-ranglista: Itt megtalálható lesz egy felületen, az adott témakörre, vagy összesített pontszám alapján a legjobb értékelést kapott 
+felhasználók.
+
+4. Általános témakörök felsorolása
+A felhasználó kitudja listáztatni az adott témákat (Pl.: Irodalom / Matematika / Történelem)
+
+5. Témakörökre osztott témák
+A felhasználó miután kiválasztja az általa kívánt témát, ezen belül lesznek altémák is (Pl.: Történelem esetén a 2. világháború)
+
+6. Témánkénti előrehaladás jelzése
+-teszt: Ha egy felhasználó kiválasztotta az általa kívánt témát és altémát lehetősége lesz olvasni az adott témakörben és egy teszt 
+kitöltésére is, amiben megtudhatja mennyire jól értelmezte az adott témakört. 
+-profil előrehaladás: Minden témában több altéma van. Ezek kitöltésének állapotát témakörökre bontva, százalékos értékkel tároljuk.
+
+7. Offline elérhetőség a már megnyitott témáknál
+A programnak tárolnia kell a felhasználó jelenlegi előrehaladását, akkor is ha valamiért nem tud csatlakozni a szerverre. Az adatokat 
+akkor fogja továbbítani a szerver felé, ha újra kapcsolatot tud létesíteni vele.
+
 ## 12. Fogalomszótár
