@@ -50,6 +50,8 @@ Modul | Megnevezés | Hogyan elégítjük ki a követelményt?
 
 ## 5. Funkcionális terv
 ## 6. Fizikai környezet
+Szervergép a backend futtatásához, számítógép, telefon a felhasználói oldalon.
+
 ## 7. Absztrakt domain modell
 ## 8. Architekturális terv
 A rendszer 3 rétegből fog állni. Adatbázis réteg az első, erre épül egy logikai réteg, majd a prezentációs réteg. A prezentációs réteg 2 részből fog állni, egy webes felület és egy mobil alkalmazás. A logikai rétek köti össze az adatbázis és prezentációs réteget. A felmerülő változásokat a webes felületen automatikusan frissítésre kerülnek, a felhasználóknak ezzel kapcsolatban nincs teendője. Mobil alkalmazás esetén az alkalmazás automtikusan frissül, amennyiben ez nincs engedélyezve figyelmeztető üzenet jelenik meg az elérhető frissítésről. Meghatározott tervezési minták és alapelvek betartásával a rendszer könnyen és következetesen bővíthető. A rendszer modulokból és pluginekből fog áll, ezzel is a bővtést megkönnyítve.
