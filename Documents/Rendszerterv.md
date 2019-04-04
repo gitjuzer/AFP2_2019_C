@@ -53,7 +53,7 @@ Modul | Megnevezés | Hogyan elégítjük ki a követelményt?
 Szervergép a backend futtatásához, számítógép, telefon a felhasználói oldalon.
 
 ## 7. Absztrakt domain modell
-<img src="./Abstract Domain Modell Diagram.png">
+<img align="center" src="./Abstract Domain Modell Diagram.png">
 
  Megnevezés | Mezők | Leírás | Kapcsolat
 ---|---|---|---
