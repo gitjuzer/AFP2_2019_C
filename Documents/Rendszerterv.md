@@ -37,16 +37,17 @@ by Vincze Flórián,Dávid Gergely
 
 Modul | Megnevezés | Hogyan elégítjük ki a követelményt?
 ---|---|---
-<architektúra terv hivatkozás> | Regisztráció | funkcionálos terv hivatkozás |
- - | Bejelentkezés |  |
- - | Kijelentkezés |  |
- - | Elfelejtett jelszó |  |
- - | Általános beállítások |  |
- - | Témák kilistázása |  |
- - | Teszt |  |
- - | Profil előrehaladás |  |
- - | Ranglista | |
- - | G_Offline | |
+8.KU01 | Regisztráció | funkcionálos terv hivatkozás |
+8.KU02 | Bejelentkezés |  |
+8.KU03 | Kijelentkezés |  |
+8.KU04 | Elfelejtett jelszó |  |
+8.KU05 | Jogosultságok |  |
+8.KU06 | Általános beállítások |  |
+8.KV01 | Témák kilistázása |  |
+8.KV03 | Teszt |  |
+8.KG01 | Profil előrehaladás |  |
+8.KG02 | Ranglista | |
+8.KG04 | G_Offline | |
 
 ## 5. Funkcionális terv
 ## 6. Fizikai környezet
@@ -83,7 +84,7 @@ KU01 | U_Reg | Regisztráció | 0.2 | A felület eléréséhez felhasználói fi
 KG01 | G_Progress | Profil előrehaladás | 0.7 | Minden témában több altéma van. Ezek kitöltésének állapotát témakörökre bontva, százalékos értékkel tároljuk.
 | KG02 | G_Leaderb | Ranglista | 0.8 | Itt megtalálható lesz egy felületen, az adott témakörre, vagy összesített pontszám alapján a legjobb értékelést kapott felhasználók.
 | KG03 | G_Noti | Értesítések | 1.0 | A kész program értesítéseket küldhet a felhasználónak különböző események alatt (Pl.: Új témakör érhető el)
-| KG03 | G_Offline | Offline működés | 1.1 | A programnak tárolnia kell a felhasználó jelenlegi előrehaladását, akkor is ha valamiért nem tud csatlakozni a szerverre. Az adatokat akkor fogja továbbítani a szerver felé, ha újra kapcsolatot tud létesíteni vele.
+| KG04 | G_Offline | Offline működés | 1.1 | A programnak tárolnia kell a felhasználó jelenlegi előrehaladását, akkor is ha valamiért nem tud csatlakozni a szerverre. Az adatokat akkor fogja továbbítani a szerver felé, ha újra kapcsolatot tud létesíteni vele.
 
 A logikai réteg jogkörtől függően enged hozzáférést az adatokhoz az adatbázisban ezzel fenntartva a biztonságot.
 ## 9. Adatbázis terv
