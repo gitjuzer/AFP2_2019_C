@@ -1,5 +1,5 @@
 ﻿## 1. Jelenlegi helyzet
-A program az oktatás jelenlegi problémáira kínál megoldást, mely egy sokkal inkább interaktívabb és rugalmasabb tanulást biztosít a tanulóknak számára akár az iskola keretein kívül is. 
+A program az oktatás jelenlegi problémáira kínál megoldást, mely egy sokkal inkább interaktívabb és rugalmasabb tanulást biztosít a tanulóknak számára akár az iskola keretein kívül is.
 
 A felmerülő problémák megoldásai:
 - a diákok az igényeikhez mérten tudják használni
@@ -7,12 +7,12 @@ A felmerülő problémák megoldásai:
 - interaktív és játékos számonkérés a tananyagokat követően
 - modern, aktuális technológiákat használó igényes rendszer
 
-Így egy modernebb gondolatú, a gyerekek számára interaktívabb, és, játékosabb tanulási lehetőséget kívánunk biztosítani, amit bárhol és bármikor tudnak használni a tanuláshoz. 
+Így egy modernebb gondolatú, a gyerekek számára interaktívabb, és, játékosabb tanulási lehetőséget kívánunk biztosítani, amit bárhol és bármikor tudnak használni a tanuláshoz.
 ## 2. Vágyálom rendszer
 A program elindításakor választhatunk, hogy oktatói, illetve tanulói felületre szeretnénk-e belépni.
 Ezt kiválasztva lehetőségünk van regisztrálni, de míg diákként ez teljesen ingyenes és akadálymentes, oktatóként regisztrálni csak érvényes iskolai licenccel lehet, így megakadályozva, hogy
 bárki használja a szoftvert.
-Az oktatói felületre belépve több funkciót is észrevehetünk: 
+Az oktatói felületre belépve több funkciót is észrevehetünk:
    - 1. Osztályok menedzselése:
            - 1.1 Osztály létrehozása
            - 1.1.1 Diák hozzáadása osztályhoz
@@ -26,11 +26,11 @@ Az oktatói felületre belépve több funkciót is észrevehetünk:
            - 2.1.3 Kérdés/lehetõség módosítása
            - 2.1.4 Játék aktiválása/deaktiválása
            - 2.2 Játékok statisztikái
-	   
+
  Oktatóként képesek vagyunk osztályokat létrehozni, ezekbe diákokat invitálni, így képesek elindítani a gyakorló feladatokat, ezek mellett képesek vagyunk diákokat eltávolítani az osztályokból. Ezeknek az osztályoknak az aktivitását is követni lehet, illetve az egyes diákok eredményeit is képesek vagyunk megtekinteni.
- 
- A játékokban szereplõ kérdéshalmazt képesek vagyunk bovíteni, ebbol kérdéseket törölni, vagy éppen módosítani. Ha szükséges, egyes játékokat ki is tudunk kapcsolni, ha az nem túl népszerû a diákoknál, vagy egy hosszadalmasabb kérdésreformot hajtanánk végre, és amint végeztünk ezzel, újra élesbe helyezhetjük a játékot. Meg tudjuk tekinteni az egyes játékok statisztikáit, például hogy mely játékot játsszák a legtöbben, melyben a legmagasabb 
-a hibázási arány stb. 
+
+ A játékokban szereplõ kérdéshalmazt képesek vagyunk bovíteni, ebbol kérdéseket törölni, vagy éppen módosítani. Ha szükséges, egyes játékokat ki is tudunk kapcsolni, ha az nem túl népszerû a diákoknál, vagy egy hosszadalmasabb kérdésreformot hajtanánk végre, és amint végeztünk ezzel, újra élesbe helyezhetjük a játékot. Meg tudjuk tekinteni az egyes játékok statisztikáit, például hogy mely játékot játsszák a legtöbben, melyben a legmagasabb
+a hibázási arány stb.
 
  Ha tanulói felületbe jelentkezünk be, és még nem vagyunk beinvitálva egyetlen osztályba sem, akkor a programban nem vagyunk képesek semmit sem csinálni, ellenben ha meghívtak minket egy osztályba, láthatjuk az egyes játékokat, illetve a legjobb eredményünket az egyes játékokhoz
 kapcsolódóan, és a próbálkozások számát.
@@ -66,7 +66,7 @@ KU01 | U_Reg | Regisztráció | 0.2 | A felület eléréséhez felhasználói fi
 | KU06 | U_Opt | Általános beállítások | 0.4 | Mind a mobil, mind a webes felületen elérhetővé kell tennie egy beállítások felületet ahol a felhasználó egyedi preferanciák alapján képes lesz beállítani dolgokat (Pl.: Nyelv, Értesítések, Felhasználó adatainak módosítása)
 | KV01 | V_Opt | Tananyagok kezelése | 0.5 | A rendszerbe különböző tananyagokat kell felvinni, illetve azokat időközönkét módosítani is kell, amihez szükség van egy felületre.
 | KV02 | V_Exam_Opt | Vizsgák kezelése | 0.5 | A vizsgák kezeléséhez elengedhetetlen egy felület, ahol új vizsgákat tudunk felvinni, a meglévőket szerkeszteni, illetve szükség esetén azokat tudjuk törölni.
-| KV03 | V_Classes | Osztályok kezelése | 0.5 | A tanárok számára elengedhetetlen, hogy a diákok osztályokba legyenek sorolva, illetve azoknak az aktivitását is meg lehessen tekinteni. 
+| KV03 | V_Classes | Osztályok kezelése | 0.5 | A tanárok számára elengedhetetlen, hogy a diákok osztályokba legyenek sorolva, illetve azoknak az aktivitását is meg lehessen tekinteni.
 | KV04 | V_Topics | Témák kilistázása | 0.6 | A felhasználó kitudja listáztatni az adott témákat (Pl.: Irodalom / Matematika / Történelem)
 | KV05 | V_SubTops | Altémák | 0.6 | A felhasználó miután kiválasztja az általa kívánt témát, ezen belül lesznek altémák is (Pl.: Történelem esetén a 2. világháború)
 | KV06 | V_Exam | Teszt | 0.6 | Ha egy felhasználó kiválasztotta az általa kívánt témát és altémát lehetősége lesz olvasni az adott témakörben és egy teszt kitöltésére is, amiben megtudhatja mennyire jól értelmezte az adott témakört.
@@ -104,17 +104,17 @@ Ez a folyamat 12 éven keresztül tart(ez kicsit több mint amit előremegfontol
 A program eléréséhez a diákok számára egy webhelyről kell letölteni egy applikációt, a tanárok egy webes felületen kell regisztráljanak.
 Az első funkciók a regisztrációs képernyok, ez 2 felületből áll. Az elsőn eldönthető, hogy regisztrálunk e, vagy érvényes hozzáférés birtokában
 bejelentkezünk a rendszerbe. Amennyiben még nem rendelkezünk fiókkal a 2. felületre érkezünk a regisztráció gombra való kattintást követoen.
-Itt szükséges adatokként meg kell adnunk a felhasználónevet, email címet, jelszót, valamint annak megerősítését. Ezeket az adatokat egy külön adatbázisban javasoljuk eltárolni, 
-amihez további felületeket hozunk létre. 
+Itt szükséges adatokként meg kell adnunk a felhasználónevet, email címet, jelszót, valamint annak megerősítését. Ezeket az adatokat egy külön adatbázisban javasoljuk eltárolni,
+amihez további felületeket hozunk létre.
 
 **6.2.milyen felhasználók vannak a rendszerben(hallgató, tanár etc), hogyan jön létre a szerepkör**
 A regisztrációs panelen 2 féle különbözo szerepkör közül választhatunk, ha hallgatóként regisztrálunk, akkor a sikeres feliratkozást követően egy applikáció
-töltődik le a mobiltelefonunkra, melynek futtatásával hívjuk elő a programot. 
+töltődik le a mobiltelefonunkra, melynek futtatásával hívjuk elő a programot.
 Tanárként egy webes felületre érkezünk.
 A tanár felületén 2 panel jelenik meg, "osztályok menedzselése" és "játékok listája" nevekkel. Ha az "osztályok menedzselését" megnyitjuk, akkor 3 panel jelenik meg,
 osztály létrehozása, osztály aktivitása, diákok elért eredményei.
-Ha az osztály létrehozására nyomunk, akkor egy fül ugrik fel középen: kérem adja meg a kívánt osztályt pl. 11.C, ennek 
-beírását követoen megjelenik egy új felület, ahol egy tábla található a felület nagy részén, még pontosan nem definiált adatokkal, a bal oldalon egy kis sávban variációs 
+Ha az osztály létrehozására nyomunk, akkor egy fül ugrik fel középen: kérem adja meg a kívánt osztályt pl. 11.C, ennek
+beírását követoen megjelenik egy új felület, ahol egy tábla található a felület nagy részén, még pontosan nem definiált adatokkal, a bal oldalon egy kis sávban variációs
 lehetőségek vannak gombok formájában. Hallgató hozzáadása, hallgató törlése, üzenet írása.Ha hallgatót akarunk törölni, vagy hozzáadni, akkor a választott gombra nyomunk, miután
 felugrik középen egy kisebb menüsor, itt meg kell adni a hallagtó nevét, neptun kódját, majd a sor alján található töröl, vagy hozzáad paranccsal erosíthetjük meg a szándékot.
 A tanár akár egyénenként is írhat, vagy csoportosan is üzenetet a hallgatóknak pl: Józsi csináld meg az x játék 3-as modulját még kétszer, vagy Mindenkinek - Jövő héten dolgozat.
@@ -126,7 +126,7 @@ adatok is megadhatóak, így számos szempontból elemezhetové válnak az eltá
 Ezekhez szükségünk van egy újabb adatbázis modellre, a fent ismertetett és bemutatott felületekre, a gombok, menük, egyéb funkciók megvalósítására, valamint egy szerver-kliens kapcsolat létesítéséhez
 tervezett modellre.
 
-Diákként a belépést követően megjelennek a témakörök. ABC sorrendben fentrol lefelé haladva lehet áttekinteni oket pl: irodalom.. matematika.. történelem.., alapból az elso 3 leckét mutatja a mobiltelefon 
+Diákként a belépést követően megjelennek a témakörök. ABC sorrendben fentrol lefelé haladva lehet áttekinteni oket pl: irodalom.. matematika.. történelem.., alapból az elso 3 leckét mutatja a mobiltelefon
 kijelzoje közvetlenül a témakör megnevezése alatt. Balról jobbra haldva ABC sorrendben mehetünk végig a leckéken pl. Arany János.. Balassa Bálint.. Petőfi Sándor.. . A konkrét leckére kattintva eloször a leckéhez
 tartozó leírás, ismeretanyag, az elsajátítandó dolgok következnek, majd azok végiglapozását követoen egy vizsga gombra kattintva lehet számot adni a tudásról. Itt majd különféle tesztek lesznek jelenleg feleletválasztós
 3 rossz és egy jó válasz jelenik meg a képernyon, a jóra kattintva extra információk, érdekességek jelennek meg pluszban az adott anyagról. Azt is kiírja, hogy mennyi idot vett igénybe a válaszadás és ez
@@ -141,7 +141,7 @@ Szereplők:
 - Diák
 
 Tevékenységek:
-- Tanár: 
+- Tanár:
 	- azonosító alapú regisztráció
 	- bejelentkezés tanárként
 	- tananyagok létrehozása és kezelése
@@ -154,7 +154,10 @@ Tevékenységek:
 	- tesztek megoldása
 	- statisztikák megtekintése
 	- profil szerkesztése
+  
 ## 8. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
+A két féle szereplőkör(tanár, diák) gyakorlatilag ellátja az adminisztrátor és a közönséges user feladatát. Az alkalmazás megnyitásakor egy bejelentkező ablak nyílik meg, melyben sikeres bejelentkezés után az alkalmazás eldönti, hogy egy diák vagy tanár jelentkezett be. Diák bejelentkezése esetén a közönséges folyamatábra fog lefutni. A diák megtekinthet meglévő tananyagokat, teszteket oldhat meg, megtekintheti a már megoldott tesztjeinek eredményét, illetve szerkesztheti a saját profilját. Viszont ha a bejelentkezett felhasználó tanári szerepkörbe tartozik, képes a legtöbb adminisztráció featurre, például tananyagok létrehozása, bizonyos profilok szerkesztése és a saját tanyagaik statisztikáit is megbírják tekinteni. Ha nincs felhasználója az illetőnek 2 féle módon regisztrálhat egyet magának. Az első a diák regisztráció, amihez csak egy email, jelszó páros kell. A másik lehetőség, ha valaki tanárként szeretne, ehhez viszont szükség van egy különleges azonosítóra is amivel bizonyíthatja tanári mivoltát.
+
 ## 9. Képernyő tervek
 A képernyő tervek véglegesítés előtt a következő linken érhetőek el:
 [https://xd.adobe.com/view/eff62009-2522-4066-7d5b-3c6d5682baeb-99c7/](https://xd.adobe.com/view/eff62009-2522-4066-7d5b-3c6d5682baeb-99c7/)
@@ -183,26 +186,26 @@ __10.2 Webes felület__:
 
 **1. Ki és bejelentkeztetési lehetőség illetve regisztráció (Regisztráció külön diák és tanár részére).**
 *-regisztráció:* A felület eléréséhez felhasználói fiók szükséges. Ehhez természetesen elengedhetetlen egy regisztrációs felület is.
-*-bejelentkezés:* A felület eléréséhez bejelentkezés szükséges. A felhasználó ezután tudja elérni a különböző funkciókat, illetve a 
+*-bejelentkezés:* A felület eléréséhez bejelentkezés szükséges. A felhasználó ezután tudja elérni a különböző funkciókat, illetve a
 szerver az ő fiókjához csatoltan tárol különböző adatokat.
-*-kijelentkezés:* Ha a kliens felhasználót szeretne cserélni akkor elengedhetetlen egy kijelentkező felület. Ezután a kliens visszatér a 
+*-kijelentkezés:* Ha a kliens felhasználót szeretne cserélni akkor elengedhetetlen egy kijelentkező felület. Ezután a kliens visszatér a
 bejelentkező képernyőre
-*-elfelejtett jelszó:* Ha a kliens elfelejti a jelszavát akkor valamilyen módon vissza kell tudnia szerezni, anélkül hogy huzamosabb időt 
+*-elfelejtett jelszó:* Ha a kliens elfelejti a jelszavát akkor valamilyen módon vissza kell tudnia szerezni, anélkül hogy huzamosabb időt
 és energiát kellene belefektetnie. Ezt egy email bevitelével megteheti, amire kiküldjük az adott emailhez tartozó felhasználó jelszavát.
 
 
 **2. Általános fiókbeállítások**
-*-általános beállítások:* Mind a mobil, mind a webes felületen elérhetővé kell tennie egy beállítások felületet ahol a felhasználó egyedi 
+*-általános beállítások:* Mind a mobil, mind a webes felületen elérhetővé kell tennie egy beállítások felületet ahol a felhasználó egyedi
 preferanciák alapján képes lesz beállítani dolgokat (Pl.: Nyelv, Értesítések, Felhasználó adatainak módosítása).
-*-jogosultság:* A jogosultság rendszere elengedhetetlen ahhoz, hogy bizonyos felhasználóknak engedélyt tudjunk adni komolyabb dolgokhoz, 
-míg egy általános felhasználónak ne engedjünk ilyent. Például a tanárok, akik szerkeszthetik akár a feladatokat, míg diákként erre nem 
+*-jogosultság:* A jogosultság rendszere elengedhetetlen ahhoz, hogy bizonyos felhasználóknak engedélyt tudjunk adni komolyabb dolgokhoz,
+míg egy általános felhasználónak ne engedjünk ilyent. Például a tanárok, akik szerkeszthetik akár a feladatokat, míg diákként erre nem
 nyílik mód.
 *-értesítések:* A kész program értesítéseket küldhet a felhasználónak különböző események alatt (Pl.: Új témakör érhető el)
 
 **3. Ranglista témakörökre osztva**
-*-kiértékelt tesztek:* Egy teszt kitöltése után a felhasználó láthatja az elért pontszámát, de ezt tároljuk, és bármikor megtekinthető 
+*-kiértékelt tesztek:* Egy teszt kitöltése után a felhasználó láthatja az elért pontszámát, de ezt tároljuk, és bármikor megtekinthető
 újra, hogy hogyan is szerepelt a tesztben. Erre alapul majd a ranglista.
-*-ranglista:* Itt megtalálható lesz egy felületen, az adott témakörre, vagy összesített pontszám alapján a legjobb értékelést kapott 
+*-ranglista:* Itt megtalálható lesz egy felületen, az adott témakörre, vagy összesített pontszám alapján a legjobb értékelést kapott
 felhasználók.
 
 **4. Általános témakörök felsorolása**
@@ -212,12 +215,12 @@ A felhasználó kitudja listáztatni az adott témákat (Pl.: Irodalom / Matemat
 A felhasználó miután kiválasztja az általa kívánt témát, ezen belül lesznek altémák is (Pl.: Történelem esetén a 2. világháború)
 
 **6. Témánkénti előrehaladás jelzése**
-*-teszt:* Ha egy felhasználó kiválasztotta az általa kívánt témát és altémát lehetősége lesz olvasni az adott témakörben és egy teszt 
-kitöltésére is, amiben megtudhatja mennyire jól értelmezte az adott témakört. 
+*-teszt:* Ha egy felhasználó kiválasztotta az általa kívánt témát és altémát lehetősége lesz olvasni az adott témakörben és egy teszt
+kitöltésére is, amiben megtudhatja mennyire jól értelmezte az adott témakört.
 *-profil előrehaladás:* Minden témában több altéma van. Ezek kitöltésének állapotát témakörökre bontva, százalékos értékkel tároljuk.
 
 **7. Offline elérhetőség a már megnyitott témáknál**
-A programnak tárolnia kell a felhasználó jelenlegi előrehaladását, akkor is ha valamiért nem tud csatlakozni a szerverre. Az adatokat 
+A programnak tárolnia kell a felhasználó jelenlegi előrehaladását, akkor is ha valamiért nem tud csatlakozni a szerverre. Az adatokat
 akkor fogja továbbítani a szerver felé, ha újra kapcsolatot tud létesíteni vele.
 
 ## 12. Fogalomszótár
