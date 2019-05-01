@@ -91,25 +91,25 @@ A logikai réteg jogkörtől függően enged hozzáférést az adatokhoz az adat
 ## 10. Implementációs terv
 ## 11. Tesztterv
 
-Sorszám	Funkció leírása	Vizsgálat módja/eszköze, részletes leírása	Elvárt eredmény [válaszidő, végrehajtási idő, egységnyi idő alatt végrehajtott tranzakció]	Eredmény	Megfelelőség státusza [Megfelelő,
-					Pótlás határideje:]
-RTV01	KU01	Felhasználó regisztrálása	A regisztráció sikeres legyen		
-RTV02	KU02	A bejelentkezési adatok kitöltését követően a felhasználó bejelentkezik	A bejelentkezés sikeres		
-RTV03	KU03	A kijelentkezés gombra rányomva kijelentkezzen 	Sikeres Kijelentkezés		
-RTV04	KU04	Az elfelejtett jelszó megnyomásával és adatok kitöltésével elküldje az emailt amivel vissza lehet állítani a felhasználói fiókot	Email elküldése, sikeres visszaállítás		
-RTV05	KU05	különböző jogusoltági szinteken elérni más nem oda tartozó funkciókat	saját funkciók sikeres elérése , valamint idegen funkciók sikertelen elérési probálkozása		
-RTV06	KU06	Valamenyi felületen megkiséreljük a funkciók átállítását és ellenőrizzük működésük	az általános paraméterek az elvártaknak megfelelően viselkednek		
-RTV07	KV1	Ellenőrizni az adatbázisokat hogy képesek-e az adott tananyagok felvételére, lekérdezésére	Sikeres lekérdezés,adatfelvétel		
-RTV08	KV2	Létrehozunk egy teszt vizsgát majd szerkesztjük azt végül töröljük	A vizsga funkciók sikeres működése		
-RTV09	KV3	Létrehozunk egy teszt osztályt,majd hozzá adunk teszt diákokat	Az osztályok és diákok létrejönek, a velük való funkciók elvárt működése		
-RTV10	KV4	Kilistázzuk a témákat	A témák kilistázódnak		
-RTV11	KV5	Altémék kiválasztása	A altémák kilistázódnak		
-RTV12	KV6	Teszt elkezdése	Adott anyag megjelenik tesztet el tudja kezdeni majd végül be tudja fejezni		
-RTV13	KV7	Teszt Befejezése	A teszt sikeresen befejeződik majd a kiértékelés megjelenik		
-RTV14	KG01	Több teszt kitöltése	A profilon lévő  eredményadatok frissülnek		
-RTV15	KG02	Megnyitjuk a ranglistát	A ranglista sikeresen megnyílik az aktuális adatokkal		
-RTV16	KG03	Létrehozunk egy eseményt	Mobil ezközre sikeresen ki küldi az értesítőt		
-RTV17	KG04	Internetes elérhetőség megszakítása	A program működésében nem keletkezik hiba az internet megszakítása után, majd újbóli elérésnél tövább küldi a szervernek a frissebb adatokat		
+Sorszám |	Funkció leírása |	Vizsgálat módja/eszköze, részletes leírása |	Elvárt eredmény [válaszidő, végrehajtási idő, egységnyi idő alatt végrehajtott tranzakció] |	Eredmény |	Megfelelőség státusza [Megfelelő,Pótlás határideje:]
+--- | ---| --- | --- | --- | ---
+RTV01 |	KU01 |	Felhasználó regisztrálása |	A regisztráció sikeres legyen		||
+RTV02 |	KU02 |	A bejelentkezési adatok kitöltését követően a felhasználó bejelentkezik |	A bejelentkezés sikeres		||
+RTV03 |	KU03 |	A kijelentkezés gombra rányomva kijelentkezzen | 	Sikeres Kijelentkezés||		
+RTV04 |	KU04 |	Az elfelejtett jelszó megnyomásával és adatok kitöltésével elküldje az emailt amivel vissza lehet állítani a felhasználói fiókot |	Email elküldése, sikeres visszaállítás		||
+RTV05 |	KU05 |	különböző jogusoltági szinteken elérni más nem oda tartozó funkciókat |	Saját funkciók sikeres elérése , valamint idegen funkciók sikertelen elérési probálkozása		||
+RTV06 |	KU06 |	Valamenyi felületen megkiséreljük a funkciók átállítását és ellenőrizzük működésük	az általános paraméterek az elvártaknak megfelelően viselkednek		||
+RTV07 |	KV1	 |  Ellenőrizni az adatbázisokat hogy képesek-e az adott tananyagok felvételére, lekérdezésére |	Sikeres lekérdezés,adatfelvétel	||	
+RTV08 |	KV2 |	Létrehozunk egy teszt vizsgát majd szerkesztjük azt végül töröljük |	A vizsga funkciók sikeres működése		||
+RTV09 |	KV3 |	Létrehozunk egy teszt osztályt,majd hozzá adunk teszt diákokat |	Az osztályok és diákok létrejönek, a velük való funkciók elvárt működése||		
+RTV10 |	KV4	 |  Kilistázzuk a témákat	 | A témák kilistázódnak	||	
+RTV11 |	KV5 |	Altémék kiválasztása |	A altémák kilistázódnak		||
+RTV12 |	KV6 |	Teszt elkezdése |	Adott anyag megjelenik tesztet el tudja kezdeni majd végül be tudja fejezni	||	
+RTV13 |	KV7 |	Teszt Befejezése |	A teszt sikeresen befejeződik majd a kiértékelés megjelenik||		
+RTV14 |	KG01 |	Több teszt kitöltése |	A profilon lévő  eredményadatok frissülnek		||
+RTV15 |	KG02 |	Megnyitjuk a ranglistát |	A ranglista sikeresen megnyílik az aktuális adatokkal	||	
+RTV16 |	KG03 |	Létrehozunk egy eseményt |	Mobil ezközre sikeresen ki küldi az értesítőt		||
+RTV17 |	KG04 |	Internetes elérhetőség megszakítása |	A program működésében nem keletkezik hiba az internet megszakítása után, majd újbóli elérésnél tövább küldi a szervernek a frissebb adatokat	||	
 
 
 ## 12. Telepítési terv
