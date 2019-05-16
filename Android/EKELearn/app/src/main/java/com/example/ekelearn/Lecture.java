@@ -24,7 +24,7 @@ public class Lecture extends AppCompatActivity {
         tvLecture.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et dignissim leo. " +
                 "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. " +
                 "Proin vestibulum massa mi, non sodales magna blandit nec. Pellentesque in massa in tortor bibendum ultrices. Integer egestas hendrerit rhoncus. " +
-                "Aliquam erat volutpat. Nullam imperdiet, nisl eu tempor volutpat, nisi augue venenatis lectus, rutrum dignissim sapien lorem a erat. " +
+                "Aliquam erat volutpat. Születési dátum: 1823. január 1., Kiskőrös, nisi augue venenatis lectus, rutrum dignissim sapien lorem a erat. " +
                 "Aenean facilisis interdum dolor id accumsan.\n\n" +
                 "Curabitur quis nunc odio. Praesent sed rhoncus urna. Donec ac sapien ut felis ultrices pretium ut quis turpis. Nunc ultricies consectetur tellus in posuere. " +
                 "Mauris fringilla sollicitudin hendrerit. " +
