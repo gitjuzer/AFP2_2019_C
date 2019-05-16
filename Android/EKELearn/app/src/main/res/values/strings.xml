@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EKE Learn</string>
+    <string name="logo_decription">Eke Logo</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="back">Back</string>
+    <string name="change_password">Change Password</string>
+    <string name="continue_text">Continue</string>
+    <string name="result">Result</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_asd">asd</string>
+</resources>
