@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.text.method.ScrollingMovementMethod;
 
 public class Lecture extends AppCompatActivity {
 
@@ -19,6 +20,8 @@ public class Lecture extends AppCompatActivity {
         setContentView(R.layout.activity_lecture);
 
         tvLecture = findViewById(R.id.tvLectureText);
+        tvLecture.setMovementMethod(new ScrollingMovementMethod());
+
         btnTask = findViewById(R.id.btnTask);
 
         tvLecture.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et dignissim leo. " +
@@ -31,8 +34,6 @@ public class Lecture extends AppCompatActivity {
                 "Nulla elit felis, malesuada vitae lectus vitae, tristique lacinia ante. " +
                 "Pellentesque condimentum convallis augue, fermentum iaculis mauris sodales eu." +
                 "");
-
-
 
         btnTask.setText("Vizsga");
 
