@@ -1,4 +1,4 @@
-A mobilos app demójának tesztje.
+A mobilos app demójának tesztje. Pár feature még hiányos benne, de ez javarészt annak köszönhető, hogy nincs egy adatbázis és az azt kezelő backend program elkészítve. Tipikus hibák: Nem relatív szélesség/magasságú elemek(Más méretű képernyőn elcsúsznak) illetve nem scrollolható némelyik felület.
 
 Felület | Kódnév | Jó / Rossz | Komment
 --- | --- | --- | ---
@@ -12,5 +12,3 @@ Lecke | Lecture | Jó | A felület kész, viszont nem reszponzív. A leckének a
 Vizsga | Task | Jó | Kész, nem reszponzív. Helyes választ lenyomva meghívja az üzenetek ablakot "Helyes válasz" szöveggel, ellenkező esetben pedig "Rossz válasz"-al.
 Profil | Profile | Jó | A felület kész van, viszont adatbázis hiánya miatt nem tud megjeleníteni semmit, csak egy blank szöveget.
 Ranglista | Leaderboard | Jó | A profilhoz hasonlóan a felület kész, viszont nem tud megjeleníteni adatot.
-
-
