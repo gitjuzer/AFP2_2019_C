@@ -14,6 +14,7 @@ Profil | Profile | Jó | A felület kész van, viszont adatbázis hiánya miatt 
 Ranglista | Leaderboard | Rossz | A felület félkész, nincs rajta táblázat.
 
 A mobilos app demójának második tesztje.
+
 Felület | Kódnév | Jó / Rossz | Komment
 --- | --- | --- | ---
 Main | Main | Jó | Minden megfelelően működik.
