@@ -3,6 +3,7 @@ package com.example.ekelearn;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -21,6 +22,7 @@ public class Menu extends AppCompatActivity {
 
         btnLeaderboard = findViewById(R.id.btnLeaderboard);
         btnProfile = findViewById(R.id.btnProfile);
+
 
         changeActivity(findViewById(R.id.card1Col1Img));
         changeActivity(findViewById(R.id.card1Col2Img));

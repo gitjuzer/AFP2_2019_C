@@ -8,25 +8,21 @@
     android:fadeScrollbars="false"
     tools:context=".Menu">
 
-    <android.support.constraint.ConstraintLayout
-        android:id="@+id/scrollZone"
-        android:layout_width="0dp"
+    <ScrollView
+        android:id="@+id/menuScroll"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:fadeScrollbars="true"
-        android:isScrollContainer="true"
-        android:overScrollMode="always"
-        android:persistentDrawingCache="scrolling"
-        android:scrollbarAlwaysDrawHorizontalTrack="true"
-        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:fillViewport="true"
         android:scrollbarStyle="outsideInset"
         android:scrollbars="vertical"
-        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/navigationBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
 
         <android.support.constraint.ConstraintLayout
             android:id="@+id/card1"
@@ -522,6 +518,7 @@
         </android.support.constraint.ConstraintLayout>
 
     </android.support.constraint.ConstraintLayout>
+    </ScrollView>
 
     <android.support.design.widget.CoordinatorLayout
         android:id="@+id/navigationBar"
