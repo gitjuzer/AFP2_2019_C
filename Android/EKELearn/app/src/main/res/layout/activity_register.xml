@@ -24,7 +24,7 @@
         app:srcCompat="@drawable/eke_logo"
         tools:src="@drawable/eke_logo" />
 
-    <android.support.constraint.ConstraintLayout
+    <ScrollView
         android:id="@+id/constraintLayout2"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -38,8 +38,10 @@
         app:layout_constraintBottom_toTopOf="@+id/btnUserResultNext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">>
 
         <TextView
             android:id="@+id/tvUserResultText"
@@ -137,7 +139,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
     </android.support.constraint.ConstraintLayout>
-
+    </ScrollView>
     <Button
         android:id="@+id/btnUserResultNext"
         android:layout_width="0dp"
