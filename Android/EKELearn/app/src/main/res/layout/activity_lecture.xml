@@ -49,78 +49,68 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <android.support.constraint.ConstraintLayout
+    <android.support.design.widget.CoordinatorLayout
         android:id="@+id/navigationBar"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@color/colorNavBg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintBottom_toBottomOf="parent">
 
-        <ImageButton
-            android:id="@+id/btnSubjects"
-            android:layout_width="wrap_content"
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="Subject Nav Button"
-            android:scrollbarSize="4dp"
-            android:tint="@color/colorNavBtnActive"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/btnLeaderboard"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/subject" />
+            android:layout_gravity="bottom">
 
-        <ImageButton
-            android:id="@+id/btnLeaderboard"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginLeft="80dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="80dp"
-            android:layout_marginRight="80dp"
-            android:layout_marginBottom="20dp"
-            android:background="#00FFFFFF"
-            android:contentDescription="Leaderboard Nav Button"
-            android:tint="@color/colorNavBtn"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/leaderboard" />
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarBot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorNavBg"
+                android:layout_centerHorizontal="true">
 
-        <ImageButton
-            android:id="@+id/btnProfile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="20dp"
-            android:background="#00F3F2F2"
-            android:contentDescription="Profile Nav Button"
-            android:tint="@color/colorNavBtn"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/btnLeaderboard"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/profile" />
-    </android.support.constraint.ConstraintLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/btnSubjects"
+                        android:contentDescription="Subject Nav Button"
+                        app:srcCompat="@drawable/subject"
+                        android:layout_weight="1.0"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="#00FFFFFF"
+                        android:tint="@color/colorNavBtnActive"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <ImageButton
+                        android:id="@+id/btnLeaderboard"
+                        android:contentDescription="Leaderboard Nav Button"
+                        app:srcCompat="@drawable/leaderboard"
+                        android:layout_weight="1.0"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="#00FFFFFF"
+                        android:tint="@color/colorNavBtn"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <ImageButton
+                        android:id="@+id/btnProfile"
+                        android:contentDescription="Profile Nav Button"
+                        app:srcCompat="@drawable/profile"
+                        android:layout_weight="1.0"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="#00FFFFFF"
+                        android:tint="@color/colorNavBtn"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </LinearLayout>
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+    </android.support.design.widget.CoordinatorLayout>
 
     <TextView
         android:id="@+id/tvLectureText"
