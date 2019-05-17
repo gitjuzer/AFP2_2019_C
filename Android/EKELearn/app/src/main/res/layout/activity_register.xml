@@ -38,10 +38,11 @@
         app:layout_constraintBottom_toTopOf="@+id/btnUserResultNext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo">
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
+        app:layout_constraintVertical_bias="0.0">
     <android.support.constraint.ConstraintLayout
         android:layout_width="fill_parent"
-        android:layout_height="match_parent">>
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/tvUserResultText"
